@@ -13,7 +13,7 @@
 
     <title>
         
-          Example Post using Keynote Layout - undefined
+          Example Post using Keynote Layout - Crazy江的博客 | Crazy Jiang&#39;s Blog
         
     </title>
 
@@ -244,6 +244,12 @@
                 
 
                 
+                <!-- disqus 评论框 start -->
+                <div class="comment">
+                    <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+                <!-- disqus 评论框 end -->
+                
 
             </div>
 
@@ -256,8 +262,27 @@
 
                 <!-- Featured Tags -->
                 
+                <section>
+                    <!-- no hr -->
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        <a class="tag-link" href="/tags/JavaScript/">JavaScript</a><a class="tag-link" href="/tags/Linux/">Linux</a><a class="tag-link" href="/tags/OS/">OS</a><a class="tag-link" href="/tags/Unix/">Unix</a><a class="tag-link" href="/tags/VPN/">VPN</a><a class="tag-link" href="/tags/lantern/">lantern</a><a class="tag-link" href="/tags/前端开发/">前端开发</a><a class="tag-link" href="/tags/生活/">生活</a><a class="tag-link" href="/tags/翻译/">翻译</a><a class="tag-link" href="/tags/蓝灯/">蓝灯</a>
+                    </div>
+                </section>
+                
 
                 <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+
+                    
+                        <li><a href="#">Foo</a></li>
+                    
+                        <li><a href="#">Bar</a></li>
+                    
+                </ul>
                 
             </div>
 
@@ -268,8 +293,57 @@
 
 
 
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "hexo-theme-huxblog";
+    var disqus_identifier = "https://wjjiang917.github.io/2015/07/09/js-module-7day/";
+    var disqus_url = "https://wjjiang917.github.io/2015/07/09/js-module-7day/";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
 
 
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
 
 
 
