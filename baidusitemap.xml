@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+  #修改的代码位置config.coding_url
 
     
   <url>
-    <loc>https://wjjiang917.github.io/2017/09/05/lantern/</loc>
+    <loc>http://wjjiang917.coding.me/2017/09/05/lantern/</loc>
     <lastmod>2017-09-05T10:25:23.000Z</lastmod>
     <data>
         <display>
@@ -25,7 +25,7 @@
 
     
   <url>
-    <loc>https://wjjiang917.github.io/2014/01/29/hello-2015/</loc>
+    <loc>http://wjjiang917.coding.me/2014/01/29/hello-2015/</loc>
     <lastmod>2017-09-05T10:23:58.000Z</lastmod>
     <data>
         <display>
@@ -42,26 +42,7 @@
 
     
   <url>
-    <loc>https://wjjiang917.github.io/2015/07/09/js-module-7day/</loc>
-    <lastmod>2017-08-30T07:55:32.000Z</lastmod>
-    <data>
-        <display>
-        <title>Example Post using Keynote Layout</title>
-        <pubTime>2015-07-08T16:00:00.000Z</pubTime>
-        
-        <tag>前端开发</tag>
-         
-        <tag>JavaScript</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://wjjiang917.github.io/2013/05/25/js-module-loader/</loc>
+    <loc>http://wjjiang917.coding.me/2013/05/25/js-module-loader/</loc>
     <lastmod>2017-08-30T07:55:32.000Z</lastmod>
     <data>
         <display>
@@ -80,7 +61,26 @@
 
     
   <url>
-    <loc>https://wjjiang917.github.io/2014/09/22/js-version/</loc>
+    <loc>http://wjjiang917.coding.me/2015/07/09/js-module-7day/</loc>
+    <lastmod>2017-08-30T07:55:32.000Z</lastmod>
+    <data>
+        <display>
+        <title>Example Post using Keynote Layout</title>
+        <pubTime>2015-07-08T16:00:00.000Z</pubTime>
+        
+        <tag>前端开发</tag>
+         
+        <tag>JavaScript</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://wjjiang917.coding.me/2014/09/22/js-version/</loc>
     <lastmod>2017-08-30T07:55:32.000Z</lastmod>
     <data>
         <display>
@@ -101,7 +101,7 @@
 
     
   <url>
-    <loc>https://wjjiang917.github.io/2015/04/14/unix-linux-note/</loc>
+    <loc>http://wjjiang917.coding.me/2015/04/14/unix-linux-note/</loc>
     <lastmod>2017-08-30T07:55:32.000Z</lastmod>
     <data>
         <display>
