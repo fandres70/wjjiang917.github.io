@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[免费VPN - 蓝灯lantern 邀请码YFPJ9TJ]]></title>
+    <url>%2F2017%2F09%2F05%2Flantern%2F</url>
+    <content type="text"><![CDATA[官网下载地址 蓝灯lantern邀请码 YFPJ9TJ 永久有效！可获取三个月免费蓝灯专业版 YFPJ9TJYFPJ9TJYFPJ9TJ 重要的事情说三遍！！！]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>VPN</tag>
+        <tag>蓝灯</tag>
+        <tag>lantern</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo+oschina，免费拥有自己的博客]]></title>
+    <url>%2F2017%2F08%2F05%2Fhexo-oschina%2F</url>
+    <content type="text"><![CDATA[Hexo+oschina环境的搭建可以参考Hexo使用指南 ###Hexo博客搭建教程 ###提交到搜索引擎 ###添加评论、打赏、RSS等功能 ###开始写博客 学会写Markdown Hexo目录结构 _config.yml 配置文件 public 生成的页面HTML/JS/CSS source/_posts 放入你的博客 网站主题，可以使用Hexo官网提供的博客网站主题模版 在source/_posts目录下新增/修改博客或者修改任何配置文件后， 执行命令生成页面 1hexo g(enerate) 代码提交到Git仓库 1hexo d(eploy) 也可以启动本地服务，预览博客 1hexo s(erver) PS: 图片可以上传到七牛云存储]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>oschina</tag>
+        <tag>gitee</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Markdown demo]]></title>
+    <url>%2F2016%2F09%2F05%2Fmarkdemo%2F</url>
+    <content type="text"><![CDATA[#一级标题 ##二级标题 ###三级标题 标题 这是正文序号^1 斜体 斜体粗体 粗体删除线 12public void main(String[] args)&#123;&#125; 块块 块块 12块块块块 这是引文引文 正文背景色 head1 head2 head3 cell1 cell2 cell3 cell1 cell2 cell3 First Header Second Header Third Header Content Cell Content Cell Content Cell Content Cell Content Cell Content Cell 无序号列表 项1 项2 双星号无空格* 三星号有空格 1 2 带序号列表 带空格1 带空格23.不带空格3 链接(www.baidu.com) BAIDU 图片本地图片：网络图片：]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+</search>
