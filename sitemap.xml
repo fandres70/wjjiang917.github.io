@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wjjiang.oschina.io/2017/09/06/android-as-freemarker/</loc>
+    
+    <lastmod>2017-09-06T07:56:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wjjiang.oschina.io/2017/09/06/android-as-livetemplate/</loc>
+    
+    <lastmod>2017-09-06T07:56:43.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wjjiang.oschina.io/2016/09/25/jianshu/</loc>
+    
+    <lastmod>2017-09-06T07:56:24.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://wjjiang.oschina.io/2017/06/06/android-gradle-api/</loc>
     
     <lastmod>2017-09-06T07:41:49.000Z</lastmod>
@@ -12,20 +33,6 @@
     <loc>http://wjjiang.oschina.io/2017/08/06/android-best-practices/</loc>
     
     <lastmod>2017-09-06T07:41:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wjjiang.oschina.io/2017/09/06/android-as-livetemplate/</loc>
-    
-    <lastmod>2017-09-06T07:35:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wjjiang.oschina.io/2017/09/06/android-as-freemarker/</loc>
-    
-    <lastmod>2017-09-06T07:35:15.000Z</lastmod>
     
   </url>
   
