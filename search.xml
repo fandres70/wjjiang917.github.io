@@ -16,7 +16,7 @@
   <entry>
     <title><![CDATA[Hexo+oschina，免费拥有自己的博客]]></title>
     <url>%2F2017%2F08%2F05%2Fhexo-oschina%2F</url>
-    <content type="text"><![CDATA[Hexo+oschina环境的搭建可以参考Hexo使用指南 ###Hexo博客搭建教程 ###提交到搜索引擎 ###添加评论、打赏、RSS等功能 ###开始写博客 学会写Markdown Hexo目录结构 _config.yml 配置文件 public 生成的页面HTML/JS/CSS source/_posts 放入你的博客 网站主题，可以使用Hexo官网提供的博客网站主题模版 在source/_posts目录下新增/修改博客或者修改任何配置文件后， 执行命令生成页面 1hexo g(enerate) 代码提交到Git仓库 1hexo d(eploy) 也可以启动本地服务，预览博客 1hexo s(erver) PS: 图片可以上传到七牛云存储]]></content>
+    <content type="text"><![CDATA[Hexo+oschina环境的搭建可以参考Hexo使用指南 推荐主题：Next Theme Next主题使用教程 Hexo博客搭建教程 ###开始写博客 学会写Markdown Hexo目录结构 _config.yml 配置文件 public 生成的页面HTML/JS/CSS source/_posts 放入你的博客 网站主题，可以使用Hexo官网提供的博客网站主题模版 在source/_posts目录下新增/修改博客或者修改任何配置文件后， 执行命令生成页面 1hexo g(enerate) 代码提交到Git仓库 1hexo d(eploy) 也可以启动本地服务，预览博客 1hexo s(erver) PS: 图片可以上传到七牛云存储]]></content>
       <categories>
         <category>随笔</category>
       </categories>
