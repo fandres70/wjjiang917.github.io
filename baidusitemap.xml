@@ -83,24 +83,6 @@
     </url>
 
     
-  <url>
-    <loc>https://wjjiang.oschina.io/2013/05/25/js-module-loader/</loc>
-    <lastmod>2017-08-30T07:55:32.000Z</lastmod>
-    <data>
-        <display>
-        <title>Example Post with Code Highlight</title>
-        <pubTime>2013-05-24T16:00:00.000Z</pubTime>
-        
-        <tag>前端开发</tag>
-         
-        <tag>JavaScript</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>https://wjjiang.oschina.io/2015/07/09/js-module-7day/</loc>
@@ -145,4 +127,22 @@
     
     
     
+  <url>
+    <loc>https://wjjiang.oschina.io/2013/05/25/js-module-loader/</loc>
+    <lastmod>2017-08-30T07:55:32.000Z</lastmod>
+    <data>
+        <display>
+        <title>Example Post with Code Highlight</title>
+        <pubTime>2013-05-24T16:00:00.000Z</pubTime>
+        
+        <tag>前端开发</tag>
+         
+        <tag>JavaScript</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
 </urlset>
