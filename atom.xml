@@ -53,10 +53,9 @@
     <published>2017-08-05T04:00:00.000Z</published>
     <updated>2017-09-06T06:46:00.000Z</updated>
     
-    <content type="html"><![CDATA[<p>#博客搭建<br><a href="http://blog.csdn.net/qq_20954959/article/details/54425916" target="_blank" rel="external">博客搭建教程</a></p>
+    <content type="html"><![CDATA[<h2 id="博客搭建"><a href="#博客搭建" class="headerlink" title="博客搭建"></a>博客搭建</h2><p><a href="http://blog.csdn.net/qq_20954959/article/details/54425916" target="_blank" rel="external">博客搭建教程</a></p>
 <p>推荐主题：<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">Next Theme</a>   <a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">Next主题使用教程</a></p>
-<p>#开始写博客</p>
-<ul>
+<h2 id="开始写博客"><a href="#开始写博客" class="headerlink" title="开始写博客"></a>开始写博客</h2><ul>
 <li>学会写Markdown</li>
 <li>Hexo目录结构<br><img src="http://ovu5hb0jj.bkt.clouddn.com/hexo.png-oschina" alt="目录结构"><ul>
 <li>_config.yml 配置文件</li>
@@ -84,8 +83,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;#博客搭建&lt;br&gt;&lt;a href=&quot;http://blog.csdn.net/qq_20954959/article/details/54425916&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;博客搭建教程&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;推荐主题：&lt;a hre
+      &lt;h2 id=&quot;博客搭建&quot;&gt;&lt;a href=&quot;#博客搭建&quot; class=&quot;headerlink&quot; title=&quot;博客搭建&quot;&gt;&lt;/a&gt;博客搭建&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/qq_20954959/article/details/5442
     
     </summary>
     
