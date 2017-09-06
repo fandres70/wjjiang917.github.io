@@ -4,6 +4,140 @@
 
     
   <url>
+    <loc>http://wjjiang.oschina.io/2017/06/06/android-gradle-api/</loc>
+    <lastmod>2017-09-06T07:41:49.000Z</lastmod>
+    <data>
+        <display>
+        <title>android-apt、annotationProcessor、provided、compile和Gradle 3.X的指令api、implementation</title>
+        <pubTime>2017-06-06T02:00:00.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>Gradle</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android - Gradle" url="http://wjjiang.oschina.io/categories/Android-Gradle/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://wjjiang.oschina.io/2017/08/06/android-best-practices/</loc>
+    <lastmod>2017-09-06T07:41:26.000Z</lastmod>
+    <data>
+        <display>
+        <title>关于学习Android的31条小建议</title>
+        <pubTime>2017-08-06T09:20:00.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android - Best Practices" url="http://wjjiang.oschina.io/categories/Android-Best-Practices/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://wjjiang.oschina.io/2017/09/06/android-as-livetemplate/</loc>
+    <lastmod>2017-09-06T07:35:51.000Z</lastmod>
+    <data>
+        <display>
+        <title>Live Templates - 快速生成代码</title>
+        <pubTime>2017-09-06T02:00:00.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>Android Studio</tag>
+         
+        <tag>Live Templates</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android - Android Studio" url="http://wjjiang.oschina.io/categories/Android-Android-Studio/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://wjjiang.oschina.io/2017/09/06/android-as-freemarker/</loc>
+    <lastmod>2017-09-06T07:35:15.000Z</lastmod>
+    <data>
+        <display>
+        <title>FreeMarker - 快速生成Android Studio工程文件</title>
+        <pubTime>2017-09-06T02:00:00.000Z</pubTime>
+        
+        <tag>FreeMarker</tag>
+         
+        <tag>Android</tag>
+         
+        <tag>Android Studio</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android - Android Studio" url="http://wjjiang.oschina.io/categories/Android-Android-Studio/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://wjjiang.oschina.io/2016/09/25/android-context/</loc>
+    <lastmod>2017-09-06T07:35:03.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android Context笔记</title>
+        <pubTime>2016-09-25T02:00:00.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>Context</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android - 基础" url="http://wjjiang.oschina.io/categories/Android-%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://wjjiang.oschina.io/2016/09/05/android-nomedia/</loc>
+    <lastmod>2017-09-06T06:56:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android避免资源被系统扫描并显示 - .nomedia</title>
+        <pubTime>2016-09-05T02:00:00.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>nomedia</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android - 基础" url="http://wjjiang.oschina.io/categories/Android-%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://wjjiang.oschina.io/2017/08/05/hexo-oschina/</loc>
     <lastmod>2017-09-06T06:46:00.000Z</lastmod>
     <data>
