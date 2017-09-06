@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wjjiang.oschina.io/404.html</loc>
+    
+    <lastmod>2017-09-06T05:50:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://wjjiang.oschina.io/2017/08/05/hexo-oschina/</loc>
     
     <lastmod>2017-09-06T05:46:19.000Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>http://wjjiang.oschina.io/2016/09/05/markdemo/</loc>
     
     <lastmod>2017-09-06T05:20:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wjjiang.oschina.io/404.html</loc>
-    
-    <lastmod>2017-08-30T07:55:32.000Z</lastmod>
     
   </url>
   
