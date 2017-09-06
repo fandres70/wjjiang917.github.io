@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Crazy江的博客</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://wjjiang.oschina.io/"/>
+  <updated>2017-09-05T10:25:23.000Z</updated>
+  <id>https://wjjiang.oschina.io/</id>
+  
+  <author>
+    <name>Crazy江</name>
+    <email>wjjiang917@qq.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>免费VPN - 蓝灯lantern  邀请码YFPJ9TJ</title>
+    <link href="https://wjjiang.oschina.io/2017/09/05/lantern/"/>
+    <id>https://wjjiang.oschina.io/2017/09/05/lantern/</id>
+    <published>2017-09-04T16:00:00.000Z</published>
+    <updated>2017-09-05T10:25:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.getlantern.org/zh_CN/" target="_blank" rel="external">官网</a><br><a href="https://github.com/getlantern/forum/" target="_blank" rel="external">下载地址</a></p>
+<p>蓝灯lantern邀请码 <strong>YFPJ9TJ</strong> 永久有效！可获取三个月免费蓝灯专业版</p>
+<font color="red" size="5">YFPJ9TJ</font><br><br><font color="red" size="5">YFPJ9TJ</font><br><br><font color="red" size="5">YFPJ9TJ</font>
+
+<p>重要的事情说三遍！！！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://www.getlantern.org/zh_CN/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官网&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/getlantern/forum/&quot; targe
+    
+    </summary>
+    
+    
+      <category term="VPN" scheme="https://wjjiang.oschina.io/tags/VPN/"/>
+    
+      <category term="蓝灯" scheme="https://wjjiang.oschina.io/tags/%E8%93%9D%E7%81%AF/"/>
+    
+      <category term="lantern" scheme="https://wjjiang.oschina.io/tags/lantern/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+oschina，免费拥有自己的博客</title>
+    <link href="https://wjjiang.oschina.io/2017/08/05/hexo-oschina/"/>
+    <id>https://wjjiang.oschina.io/2017/08/05/hexo-oschina/</id>
+    <published>2017-08-04T16:00:00.000Z</published>
+    <updated>2017-09-06T03:09:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hexo+oschina环境的搭建可以参考<a href="http://www.jianshu.com/p/84a8384be1ae" target="_blank" rel="external">Hexo使用指南</a></p>
+<p>###<a href="http://blog.csdn.net/qq_20954959/article/details/54425916" target="_blank" rel="external">Hexo博客搭建教程</a></p>
+<p>###<a href="http://www.joryhe.com/2016-05-31-baidugoogleboth_tijiao.html" target="_blank" rel="external">提交到搜索引擎</a></p>
+<p>###<a href="http://www.jianshu.com/p/5973c05d7100" target="_blank" rel="external">添加评论、打赏、RSS等功能</a></p>
+<p>###开始写博客</p>
+<ul>
+<li>学会写Markdown</li>
+<li>Hexo目录结构<br><img src="http://ovu5hb0jj.bkt.clouddn.com/hexo.png-oschina" alt="目录结构"><ul>
+<li>_config.yml 配置文件</li>
+<li>public 生成的页面HTML/JS/CSS</li>
+<li>source/_posts 放入你的博客</li>
+<li>网站主题，可以使用<a href="https://hexo.io" target="_blank" rel="external">Hexo官网</a>提供的<a href="https://hexo.io/themes/" target="_blank" rel="external">博客网站主题模版</a></li>
+</ul>
+</li>
+<li><p>在source/_posts目录下新增/修改博客或者修改任何配置文件后，</p>
+<ul>
+<li><p>执行命令生成页面</p>
+  <figure class="highlight lisp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo g(<span class="name">enerate</span>)</div></pre></td></tr></table></figure>
+</li>
+<li><p>代码提交到Git仓库</p>
+  <figure class="highlight lisp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo d(<span class="name">eploy</span>)</div></pre></td></tr></table></figure>
+</li>
+<li><p>也可以启动本地服务，预览博客</p>
+  <figure class="highlight lisp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo s(<span class="name">erver</span>)</div></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>PS</strong>: 图片可以上传到<em>七牛云</em>存储<br><img src="http://ovu5hb0jj.bkt.clouddn.com/git.jpg-oschina" alt="Git"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Hexo+oschina环境的搭建可以参考&lt;a href=&quot;http://www.jianshu.com/p/84a8384be1ae&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo使用指南&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;###&lt;a href=&quot;http:
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://wjjiang.oschina.io/tags/Hexo/"/>
+    
+      <category term="oschina" scheme="https://wjjiang.oschina.io/tags/oschina/"/>
+    
+      <category term="gitee" scheme="https://wjjiang.oschina.io/tags/gitee/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown demo</title>
+    <link href="https://wjjiang.oschina.io/2016/09/05/markdemo/"/>
+    <id>https://wjjiang.oschina.io/2016/09/05/markdemo/</id>
+    <published>2016-09-04T16:00:00.000Z</published>
+    <updated>2017-09-06T02:29:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>#一级标题</p>
+<p>##二级标题  ###三级标题    标题</p>
+<p>这是正文<br>序号<a href="这是底部批注">^1</a></p>
+<p><em>斜体</em>  <em>斜体</em><br><strong>粗体</strong>  <strong>粗体</strong><br><del>删除线</del></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<pre><code>块块
+块块
+</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">块块块</div><div class="line">块</div></pre></td></tr></table></figure>
+<blockquote>
+<p>这是引文<br>引文</p>
+</blockquote>
+<hr>
+<p>正文<br><code>背景色</code></p>
+<table>
+<thead>
+<tr>
+<th>head1</th>
+<th>head2</th>
+<th>head3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cell1</td>
+<td>cell2</td>
+<td>cell3</td>
+</tr>
+<tr>
+<td>cell1</td>
+<td>cell2</td>
+<td>cell3</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+<th>Third Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+<tr>
+<td>Content Cell</td>
+<td>Content Cell</td>
+<td>Content Cell</td>
+</tr>
+</tbody>
+</table>
+<p>无序号列表</p>
+<ul>
+<li>项1</li>
+<li>项2<br><strong> 双星号无空格<br>*</strong> 三星号有空格</li>
+</ul>
+<ul>
+<li>1</li>
+<li>2</li>
+</ul>
+<p>带序号列表</p>
+<ol>
+<li>带空格1</li>
+<li>带空格2<br>3.不带空格3</li>
+</ol>
+<p>链接<br>(www.baidu.com)  <a href="www.baidu.com">BAIDU</a></p>
+<p>图片<br>本地图片：<br><img src="http://upload-images.jianshu.io/upload_images/1891733-50f297584e793540.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="mmqrcode1463639529795.png"><br>网络图片：<br><img src="http://upload-images.jianshu.io/upload_images/1891733-ac4a4eaf8c56c16a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Beauty"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#一级标题&lt;/p&gt;
+&lt;p&gt;##二级标题  ###三级标题    标题&lt;/p&gt;
+&lt;p&gt;这是正文&lt;br&gt;序号&lt;a href=&quot;这是底部批注&quot;&gt;^1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;  &lt;em&gt;斜体&lt;/em&gt;&lt;br&gt;&lt;strong&gt;粗体&lt;/strong&gt;  &lt;stro
+    
+    </summary>
+    
+    
+      <category term="Markdown" scheme="https://wjjiang.oschina.io/tags/Markdown/"/>
+    
+  </entry>
+  
+</feed>
