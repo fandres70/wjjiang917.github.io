@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://wjjiang.oschina.io/2017/08/05/hexo-oschina/</loc>
-    <lastmod>2017-09-06T03:09:04.000Z</lastmod>
+    <lastmod>2017-09-06T05:15:31.000Z</lastmod>
     <data>
         <display>
         <title>Hexo+oschina，免费拥有自己的博客</title>
@@ -25,25 +25,8 @@
 
     
   <url>
-    <loc>https://wjjiang.oschina.io/2016/09/05/markdemo/</loc>
-    <lastmod>2017-09-06T02:29:51.000Z</lastmod>
-    <data>
-        <display>
-        <title>Markdown demo</title>
-        <pubTime>2016-09-04T16:00:00.000Z</pubTime>
-        
-        <tag>Markdown</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://wjjiang.oschina.io/2017/09/05/lantern/</loc>
-    <lastmod>2017-09-05T10:25:23.000Z</lastmod>
+    <lastmod>2017-09-06T05:15:25.000Z</lastmod>
     <data>
         <display>
         <title>免费VPN - 蓝灯lantern  邀请码YFPJ9TJ</title>
@@ -54,6 +37,23 @@
         <tag>蓝灯</tag>
          
         <tag>lantern</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://wjjiang.oschina.io/2016/09/05/markdemo/</loc>
+    <lastmod>2017-09-06T02:29:51.000Z</lastmod>
+    <data>
+        <display>
+        <title>Markdown demo</title>
+        <pubTime>2016-09-04T16:00:00.000Z</pubTime>
+        
+        <tag>Markdown</tag>
          
          
            
