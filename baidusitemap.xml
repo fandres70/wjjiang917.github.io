@@ -3,10 +3,34 @@
 
 
     
+  <url>
+    <loc>http://wjjiang.oschina.io/2017/08/05/hexo-oschina/</loc>
+    <lastmod>2017-09-06T05:46:19.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo+oschina，免费拥有自己的博客</title>
+        <pubTime>2017-08-04T16:00:00.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>oschina</tag>
+         
+        <tag>gitee</tag>
+         
+         
+           
+             
+              <breadCrumb title="随笔" url="http://wjjiang.oschina.io/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
     
   <url>
-    <loc>https://wjjiang.oschina.io/2017/09/05/lantern/</loc>
+    <loc>http://wjjiang.oschina.io/2017/09/05/lantern/</loc>
     <lastmod>2017-09-06T05:26:45.000Z</lastmod>
     <data>
         <display>
@@ -22,7 +46,7 @@
          
            
              
-              <breadCrumb title="随笔" url="https://wjjiang.oschina.io/categories/%E9%9A%8F%E7%AC%94/"/>
+              <breadCrumb title="随笔" url="http://wjjiang.oschina.io/categories/%E9%9A%8F%E7%AC%94/"/>
           
         </display>
     </data>
@@ -30,7 +54,7 @@
 
     
   <url>
-    <loc>https://wjjiang.oschina.io/2016/09/05/markdemo/</loc>
+    <loc>http://wjjiang.oschina.io/2016/09/05/markdemo/</loc>
     <lastmod>2017-09-06T05:20:17.000Z</lastmod>
     <data>
         <display>
@@ -42,31 +66,7 @@
          
            
              
-              <breadCrumb title="随笔" url="https://wjjiang.oschina.io/categories/%E9%9A%8F%E7%AC%94/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://wjjiang.oschina.io/2017/08/05/hexo-oschina/</loc>
-    <lastmod>2017-09-06T05:19:55.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo+oschina，免费拥有自己的博客</title>
-        <pubTime>2017-08-04T16:00:00.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>oschina</tag>
-         
-        <tag>gitee</tag>
-         
-         
-           
-             
-              <breadCrumb title="随笔" url="https://wjjiang.oschina.io/categories/%E9%9A%8F%E7%AC%94/"/>
+              <breadCrumb title="随笔" url="http://wjjiang.oschina.io/categories/%E9%9A%8F%E7%AC%94/"/>
           
         </display>
     </data>

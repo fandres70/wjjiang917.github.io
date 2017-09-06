@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://wjjiang.oschina.io/"/>
+  <link href="http://wjjiang.oschina.io/"/>
   <updated>2017-09-06T05:26:45.000Z</updated>
-  <id>https://wjjiang.oschina.io/</id>
+  <id>http://wjjiang.oschina.io/</id>
   
   <author>
     <name>Crazy江</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>免费VPN - 蓝灯lantern  邀请码YFPJ9TJ</title>
-    <link href="https://wjjiang.oschina.io/2017/09/05/lantern/"/>
-    <id>https://wjjiang.oschina.io/2017/09/05/lantern/</id>
+    <link href="http://wjjiang.oschina.io/2017/09/05/lantern/"/>
+    <id>http://wjjiang.oschina.io/2017/09/05/lantern/</id>
     <published>2017-09-04T16:00:00.000Z</published>
     <updated>2017-09-06T05:26:45.000Z</updated>
     
@@ -35,27 +35,27 @@
     
     </summary>
     
-      <category term="随笔" scheme="https://wjjiang.oschina.io/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://wjjiang.oschina.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="VPN" scheme="https://wjjiang.oschina.io/tags/VPN/"/>
+      <category term="VPN" scheme="http://wjjiang.oschina.io/tags/VPN/"/>
     
-      <category term="蓝灯" scheme="https://wjjiang.oschina.io/tags/%E8%93%9D%E7%81%AF/"/>
+      <category term="蓝灯" scheme="http://wjjiang.oschina.io/tags/%E8%93%9D%E7%81%AF/"/>
     
-      <category term="lantern" scheme="https://wjjiang.oschina.io/tags/lantern/"/>
+      <category term="lantern" scheme="http://wjjiang.oschina.io/tags/lantern/"/>
     
   </entry>
   
   <entry>
     <title>Hexo+oschina，免费拥有自己的博客</title>
-    <link href="https://wjjiang.oschina.io/2017/08/05/hexo-oschina/"/>
-    <id>https://wjjiang.oschina.io/2017/08/05/hexo-oschina/</id>
+    <link href="http://wjjiang.oschina.io/2017/08/05/hexo-oschina/"/>
+    <id>http://wjjiang.oschina.io/2017/08/05/hexo-oschina/</id>
     <published>2017-08-04T16:00:00.000Z</published>
-    <updated>2017-09-06T05:19:55.000Z</updated>
+    <updated>2017-09-06T05:46:19.000Z</updated>
     
     <content type="html"><![CDATA[<p>Hexo+oschina环境的搭建可以参考<a href="http://www.jianshu.com/p/84a8384be1ae" target="_blank" rel="external">Hexo使用指南</a></p>
 <p>###<a href="http://blog.csdn.net/qq_20954959/article/details/54425916" target="_blank" rel="external">Hexo博客搭建教程</a></p>
-<p>###<a href="http://www.joryhe.com/2016-05-31-baidugoogleboth_tijiao.html" target="_blank" rel="external">提交到搜索引擎</a></p>
+<p>###<a href="http://www.joryhe.com/2016-05-31-baidu_google_both_tijiao.html" target="_blank" rel="external">提交到搜索引擎</a></p>
 <p>###<a href="http://www.jianshu.com/p/5973c05d7100" target="_blank" rel="external">添加评论、打赏、RSS等功能</a></p>
 <p>###开始写博客</p>
 <ul>
@@ -91,21 +91,21 @@
     
     </summary>
     
-      <category term="随笔" scheme="https://wjjiang.oschina.io/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://wjjiang.oschina.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="Hexo" scheme="https://wjjiang.oschina.io/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://wjjiang.oschina.io/tags/Hexo/"/>
     
-      <category term="oschina" scheme="https://wjjiang.oschina.io/tags/oschina/"/>
+      <category term="oschina" scheme="http://wjjiang.oschina.io/tags/oschina/"/>
     
-      <category term="gitee" scheme="https://wjjiang.oschina.io/tags/gitee/"/>
+      <category term="gitee" scheme="http://wjjiang.oschina.io/tags/gitee/"/>
     
   </entry>
   
   <entry>
     <title>Markdown demo</title>
-    <link href="https://wjjiang.oschina.io/2016/09/05/markdemo/"/>
-    <id>https://wjjiang.oschina.io/2016/09/05/markdemo/</id>
+    <link href="http://wjjiang.oschina.io/2016/09/05/markdemo/"/>
+    <id>http://wjjiang.oschina.io/2016/09/05/markdemo/</id>
     <published>2016-09-04T16:00:00.000Z</published>
     <updated>2017-09-06T05:20:17.000Z</updated>
     
@@ -191,10 +191,10 @@
     
     </summary>
     
-      <category term="随笔" scheme="https://wjjiang.oschina.io/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://wjjiang.oschina.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="Markdown" scheme="https://wjjiang.oschina.io/tags/Markdown/"/>
+      <category term="Markdown" scheme="http://wjjiang.oschina.io/tags/Markdown/"/>
     
   </entry>
   
