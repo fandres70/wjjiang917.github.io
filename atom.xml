@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wjjiang.oschina.io/"/>
-  <updated>2017-09-06T05:15:25.000Z</updated>
+  <updated>2017-09-06T05:20:07.000Z</updated>
   <id>https://wjjiang.oschina.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://wjjiang.oschina.io/2017/09/05/lantern/"/>
     <id>https://wjjiang.oschina.io/2017/09/05/lantern/</id>
     <published>2017-09-04T16:00:00.000Z</published>
-    <updated>2017-09-06T05:15:25.000Z</updated>
+    <updated>2017-09-06T05:20:07.000Z</updated>
     
     <content type="html"><![CDATA[<p><a href="https://www.getlantern.org/zh_CN/" target="_blank" rel="external">官网</a><br><a href="https://github.com/getlantern/forum/" target="_blank" rel="external">下载地址</a></p>
 <p>蓝灯lantern邀请码 <strong>YFPJ9TJ</strong> 永久有效！可获取三个月免费蓝灯专业版</p>
@@ -34,6 +34,8 @@
       &lt;p&gt;&lt;a href=&quot;https://www.getlantern.org/zh_CN/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官网&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/getlantern/forum/&quot; targe
     
     </summary>
+    
+      <category term="随笔" scheme="https://wjjiang.oschina.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
       <category term="VPN" scheme="https://wjjiang.oschina.io/tags/VPN/"/>
@@ -49,7 +51,7 @@
     <link href="https://wjjiang.oschina.io/2017/08/05/hexo-oschina/"/>
     <id>https://wjjiang.oschina.io/2017/08/05/hexo-oschina/</id>
     <published>2017-08-04T16:00:00.000Z</published>
-    <updated>2017-09-06T05:15:31.000Z</updated>
+    <updated>2017-09-06T05:19:55.000Z</updated>
     
     <content type="html"><![CDATA[<p>Hexo+oschina环境的搭建可以参考<a href="http://www.jianshu.com/p/84a8384be1ae" target="_blank" rel="external">Hexo使用指南</a></p>
 <p>###<a href="http://blog.csdn.net/qq_20954959/article/details/54425916" target="_blank" rel="external">Hexo博客搭建教程</a></p>
@@ -89,6 +91,8 @@
     
     </summary>
     
+      <category term="随笔" scheme="https://wjjiang.oschina.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
     
       <category term="Hexo" scheme="https://wjjiang.oschina.io/tags/Hexo/"/>
     
@@ -103,7 +107,7 @@
     <link href="https://wjjiang.oschina.io/2016/09/05/markdemo/"/>
     <id>https://wjjiang.oschina.io/2016/09/05/markdemo/</id>
     <published>2016-09-04T16:00:00.000Z</published>
-    <updated>2017-09-06T02:29:51.000Z</updated>
+    <updated>2017-09-06T05:20:17.000Z</updated>
     
     <content type="html"><![CDATA[<p>#一级标题</p>
 <p>##二级标题  ###三级标题    标题</p>
@@ -186,6 +190,8 @@
 &lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;  &lt;em&gt;斜体&lt;/em&gt;&lt;br&gt;&lt;strong&gt;粗体&lt;/strong&gt;  &lt;stro
     
     </summary>
+    
+      <category term="随笔" scheme="https://wjjiang.oschina.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
       <category term="Markdown" scheme="https://wjjiang.oschina.io/tags/Markdown/"/>
