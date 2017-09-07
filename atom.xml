@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wjjiang.oschina.io/"/>
-  <updated>2017-09-06T07:56:51.000Z</updated>
+  <updated>2017-09-07T05:51:04.000Z</updated>
   <id>http://wjjiang.oschina.io/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git命令</title>
+    <link href="http://wjjiang.oschina.io/2017/09/07/git/"/>
+    <id>http://wjjiang.oschina.io/2017/09/07/git/</id>
+    <published>2017-09-07T05:41:00.000Z</published>
+    <updated>2017-09-07T05:51:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="将本地目录上传到远程仓库"><a href="#将本地目录上传到远程仓库" class="headerlink" title="将本地目录上传到远程仓库"></a>将本地目录上传到远程仓库</h2><ul>
+<li>git init</li>
+<li>git add .</li>
+<li>git commit -am “###”</li>
+<li>git remote add origin <a href="https://gitee.com/wjjiang/CustomView.git" target="_blank" rel="external">https://gitee.com/wjjiang/CustomView.git</a></li>
+<li>git pull –rebase origin master</li>
+<li>git push origin master</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;将本地目录上传到远程仓库&quot;&gt;&lt;a href=&quot;#将本地目录上传到远程仓库&quot; class=&quot;headerlink&quot; title=&quot;将本地目录上传到远程仓库&quot;&gt;&lt;/a&gt;将本地目录上传到远程仓库&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;git init&lt;/li&gt;
+&lt;li&gt;git ad
+    
+    </summary>
+    
+      <category term="笔记" scheme="http://wjjiang.oschina.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="Git" scheme="http://wjjiang.oschina.io/tags/Git/"/>
+    
+  </entry>
   
   <entry>
     <title>FreeMarker - 快速生成Android Studio工程文件</title>

@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Git命令]]></title>
+    <url>%2F2017%2F09%2F07%2Fgit%2F</url>
+    <content type="text"><![CDATA[将本地目录上传到远程仓库 git init git add . git commit -am “###” git remote add origin https://gitee.com/wjjiang/CustomView.git git pull –rebase origin master git push origin master]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[FreeMarker - 快速生成Android Studio工程文件]]></title>
     <url>%2F2017%2F09%2F06%2Fandroid-as-freemarker%2F</url>
     <content type="text"><![CDATA[http://blog.csdn.net/lmj623565791/article/details/51635533http://www.jianshu.com/p/7ba79529d365https://zhuanlan.zhihu.com/p/21301904http://www.jianshu.com/p/c76facb61d69 https://github.com/JessYanCoding/MVPArmsTemplate]]></content>

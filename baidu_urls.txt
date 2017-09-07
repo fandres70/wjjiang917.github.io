@@ -1,3 +1,4 @@
+http://wjjiang.oschina.io/2017/09/07/git/
 http://wjjiang.oschina.io/2017/09/06/android-as-freemarker/
 http://wjjiang.oschina.io/2017/09/06/android-as-livetemplate/
 http://wjjiang.oschina.io/2017/09/05/lantern/

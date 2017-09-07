@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://wjjiang.oschina.io/2017/09/07/git/</loc>
+    
+    <lastmod>2017-09-07T05:51:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://wjjiang.oschina.io/2017/09/06/android-as-freemarker/</loc>
     
     <lastmod>2017-09-06T07:56:51.000Z</lastmod>
