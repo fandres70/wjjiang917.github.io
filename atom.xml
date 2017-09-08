@@ -64,7 +64,7 @@
     <link href="http://wjjiang.oschina.io/2017/09/07/git/"/>
     <id>http://wjjiang.oschina.io/2017/09/07/git/</id>
     <published>2017-09-07T05:41:00.000Z</published>
-    <updated>2017-09-07T05:51:04.000Z</updated>
+    <updated>2017-09-08T01:40:58.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="将本地目录上传到远程仓库"><a href="#将本地目录上传到远程仓库" class="headerlink" title="将本地目录上传到远程仓库"></a>将本地目录上传到远程仓库</h2><ul>
 <li>git init</li>
@@ -86,6 +86,8 @@
     
       <category term="笔记" scheme="http://wjjiang.oschina.io/categories/%E7%AC%94%E8%AE%B0/"/>
     
+    
+      <category term="命令" scheme="http://wjjiang.oschina.io/tags/%E5%91%BD%E4%BB%A4/"/>
     
       <category term="Git" scheme="http://wjjiang.oschina.io/tags/Git/"/>
     
@@ -327,36 +329,6 @@
   </entry>
   
   <entry>
-    <title>简书收藏</title>
-    <link href="http://wjjiang.oschina.io/2016/09/25/jianshu/"/>
-    <id>http://wjjiang.oschina.io/2016/09/25/jianshu/</id>
-    <published>2016-09-25T02:00:00.000Z</published>
-    <updated>2017-09-06T07:56:24.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Tinker <a href="http://www.jianshu.com/p/ed17f00a3d23" target="_blank" rel="external">http://www.jianshu.com/p/ed17f00a3d23</a></p>
-<p>Android事件分发机制 <a href="http://www.jianshu.com/p/94770d9cda49" target="_blank" rel="external">http://www.jianshu.com/p/94770d9cda49</a></p>
-<p>Fragment全解析系列 <a href="http://www.jianshu.com/p/d9143a92ad94" target="_blank" rel="external">http://www.jianshu.com/p/d9143a92ad94</a></p>
-<p>Android主题换肤 <a href="http://www.jianshu.com/p/af7c0585dd5b" target="_blank" rel="external">http://www.jianshu.com/p/af7c0585dd5b</a></p>
-<p>Android开发规范 <a href="http://www.jianshu.com/p/4390f4fe19b3" target="_blank" rel="external">http://www.jianshu.com/p/4390f4fe19b3</a></p>
-<p>Android面试 <a href="http://www.jianshu.com/p/a22450882af2" target="_blank" rel="external">http://www.jianshu.com/p/a22450882af2</a></p>
-<p>Android开发者博客 <a href="http://www.jianshu.com/p/82db063280f5" target="_blank" rel="external">http://www.jianshu.com/p/82db063280f5</a></p>
-<p>Android组件化 <a href="http://www.jianshu.com/p/94a05b996d78" target="_blank" rel="external">http://www.jianshu.com/p/94a05b996d78</a></p>
-<p>Android组件化 <a href="http://blog.csdn.net/guiying712/article/details/55213884" target="_blank" rel="external">http://blog.csdn.net/guiying712/article/details/55213884</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Tinker &lt;a href=&quot;http://www.jianshu.com/p/ed17f00a3d23&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/ed17f00a3d23&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;An
-    
-    </summary>
-    
-      <category term="TODO" scheme="http://wjjiang.oschina.io/categories/TODO/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Android Context笔记</title>
     <link href="http://wjjiang.oschina.io/2016/09/25/android-context/"/>
     <id>http://wjjiang.oschina.io/2016/09/25/android-context/</id>
@@ -389,6 +361,36 @@
       <category term="Android" scheme="http://wjjiang.oschina.io/tags/Android/"/>
     
       <category term="Context" scheme="http://wjjiang.oschina.io/tags/Context/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简书收藏</title>
+    <link href="http://wjjiang.oschina.io/2016/09/25/jianshu/"/>
+    <id>http://wjjiang.oschina.io/2016/09/25/jianshu/</id>
+    <published>2016-09-25T02:00:00.000Z</published>
+    <updated>2017-09-06T07:56:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Tinker <a href="http://www.jianshu.com/p/ed17f00a3d23" target="_blank" rel="external">http://www.jianshu.com/p/ed17f00a3d23</a></p>
+<p>Android事件分发机制 <a href="http://www.jianshu.com/p/94770d9cda49" target="_blank" rel="external">http://www.jianshu.com/p/94770d9cda49</a></p>
+<p>Fragment全解析系列 <a href="http://www.jianshu.com/p/d9143a92ad94" target="_blank" rel="external">http://www.jianshu.com/p/d9143a92ad94</a></p>
+<p>Android主题换肤 <a href="http://www.jianshu.com/p/af7c0585dd5b" target="_blank" rel="external">http://www.jianshu.com/p/af7c0585dd5b</a></p>
+<p>Android开发规范 <a href="http://www.jianshu.com/p/4390f4fe19b3" target="_blank" rel="external">http://www.jianshu.com/p/4390f4fe19b3</a></p>
+<p>Android面试 <a href="http://www.jianshu.com/p/a22450882af2" target="_blank" rel="external">http://www.jianshu.com/p/a22450882af2</a></p>
+<p>Android开发者博客 <a href="http://www.jianshu.com/p/82db063280f5" target="_blank" rel="external">http://www.jianshu.com/p/82db063280f5</a></p>
+<p>Android组件化 <a href="http://www.jianshu.com/p/94a05b996d78" target="_blank" rel="external">http://www.jianshu.com/p/94a05b996d78</a></p>
+<p>Android组件化 <a href="http://blog.csdn.net/guiying712/article/details/55213884" target="_blank" rel="external">http://blog.csdn.net/guiying712/article/details/55213884</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Tinker &lt;a href=&quot;http://www.jianshu.com/p/ed17f00a3d23&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/ed17f00a3d23&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;An
+    
+    </summary>
+    
+      <category term="TODO" scheme="http://wjjiang.oschina.io/categories/TODO/"/>
+    
     
   </entry>
   

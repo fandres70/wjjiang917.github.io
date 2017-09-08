@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://wjjiang.oschina.io/2017/09/07/git/</loc>
+    <lastmod>2017-09-08T01:40:58.000Z</lastmod>
+    <data>
+        <display>
+        <title>Git命令</title>
+        <pubTime>2017-09-07T05:41:00.000Z</pubTime>
+        
+        <tag>命令</tag>
+         
+        <tag>Git</tag>
+         
+         
+           
+             
+              <breadCrumb title="笔记" url="http://wjjiang.oschina.io/categories/%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://wjjiang.oschina.io/2017/09/08/android-adb/</loc>
     <lastmod>2017-09-08T01:39:44.000Z</lastmod>
     <data>
@@ -21,26 +43,6 @@
            
              
               <breadCrumb title="Android - 基础" url="http://wjjiang.oschina.io/categories/Android-%E5%9F%BA%E7%A1%80/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://wjjiang.oschina.io/2017/09/07/git/</loc>
-    <lastmod>2017-09-07T05:51:04.000Z</lastmod>
-    <data>
-        <display>
-        <title>Git命令</title>
-        <pubTime>2017-09-07T05:41:00.000Z</pubTime>
-        
-        <tag>Git</tag>
-         
-         
-           
-             
-              <breadCrumb title="笔记" url="http://wjjiang.oschina.io/categories/%E7%AC%94%E8%AE%B0/"/>
           
         </display>
     </data>
