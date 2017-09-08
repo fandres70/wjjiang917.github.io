@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wjjiang.oschina.io/"/>
-  <updated>2017-09-07T05:51:04.000Z</updated>
+  <updated>2017-09-08T01:39:44.000Z</updated>
   <id>http://wjjiang.oschina.io/</id>
   
   <author>
@@ -14,6 +14,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>adb操作命令详解及大全</title>
+    <link href="http://wjjiang.oschina.io/2017/09/08/android-adb/"/>
+    <id>http://wjjiang.oschina.io/2017/09/08/android-adb/</id>
+    <published>2017-09-08T01:13:00.000Z</published>
+    <updated>2017-09-08T01:39:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>ADB，即 Android Debug Bridge，Android调试桥，身为 Android 开发的我们，熟练使用 ADB 命令将会大大提升我们的开发效率， ADB 的命令有很多，今天就来总结下我在开发常用到的一些 ADB 命令。</p>
+<h2 id="查看版本"><a href="#查看版本" class="headerlink" title="查看版本"></a>查看版本</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb version</span></div></pre></td></tr></table></figure>
+<h2 id="查看连接设备"><a href="#查看连接设备" class="headerlink" title="查看连接设备"></a>查看连接设备</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb devices</span></div></pre></td></tr></table></figure>
+<h2 id="安装apk"><a href="#安装apk" class="headerlink" title="安装apk"></a>安装apk</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb install &lt;apkfile&gt;</span></div><div class="line"><span class="meta">$</span><span class="bash"> adb install -r &lt;apkfile&gt;   --保留数据和缓存文件，重新安装apk</span></div><div class="line"><span class="meta">$</span><span class="bash"> adb install -s &lt;apkfile&gt;   --安装apk到sd卡</span></div></pre></td></tr></table></figure>
+<h2 id="卸载apk"><a href="#卸载apk" class="headerlink" title="卸载apk"></a>卸载apk</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb uninstall &lt;packagename&gt;</span></div><div class="line"><span class="meta">$</span><span class="bash"> adb uninstall -k &lt;packagename&gt; --卸载 app 但保留数据和缓存文件</span></div></pre></td></tr></table></figure>
+<h2 id="查看已安装"><a href="#查看已安装" class="headerlink" title="查看已安装"></a>查看已安装</h2><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span><span class="bash"> pm list packages</span></div><div class="line"><span class="bash">$ adb shell pm list packages -s   --系统应用的所有包名</span></div><div class="line"><span class="bash">$ adb shell pm list packages -3   --除了系统应用的第三方应用包名</span></div></pre></td></tr></table></figure>
+<h2 id="清除应用数据及缓存"><a href="#清除应用数据及缓存" class="headerlink" title="清除应用数据及缓存"></a>清除应用数据及缓存</h2><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span><span class="bash"> pm clear &lt;packagename&gt;</span></div></pre></td></tr></table></figure>
+<h2 id="启动应用"><a href="#启动应用" class="headerlink" title="启动应用"></a>启动应用</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb shell am start -n com<span class="selector-class">.test</span><span class="selector-class">.demo</span>/<span class="selector-class">.ui</span><span class="selector-class">.SplashActivity</span></div></pre></td></tr></table></figure>
+<h2 id="强制停止应用"><a href="#强制停止应用" class="headerlink" title="强制停止应用"></a>强制停止应用</h2><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span> <span class="keyword">am</span> force-<span class="keyword">stop</span> <span class="symbol">&lt;packagename&gt;</span></div></pre></td></tr></table></figure>
+<h2 id="查看日志"><a href="#查看日志" class="headerlink" title="查看日志"></a>查看日志</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb logcat</span></div></pre></td></tr></table></figure>
+<h2 id="重启"><a href="#重启" class="headerlink" title="重启"></a>重启</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb reboot</span></div></pre></td></tr></table></figure>
+<h2 id="获取序列号"><a href="#获取序列号" class="headerlink" title="获取序列号"></a>获取序列号</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb get-serialno</span></div></pre></td></tr></table></figure>
+<h2 id="获取-MAC-地址"><a href="#获取-MAC-地址" class="headerlink" title="获取 MAC 地址"></a>获取 MAC 地址</h2><figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span>  <span class="keyword">cat</span> /sys/<span class="keyword">class</span>/<span class="keyword">net</span>/wlan0/address</div></pre></td></tr></table></figure>
+<h2 id="查看设备型号"><a href="#查看设备型号" class="headerlink" title="查看设备型号"></a>查看设备型号</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb shell getprop ro<span class="selector-class">.product</span><span class="selector-class">.model</span></div></pre></td></tr></table></figure>
+<h2 id="查看-Android-系统版本"><a href="#查看-Android-系统版本" class="headerlink" title="查看 Android 系统版本"></a>查看 Android 系统版本</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb shell getprop ro<span class="selector-class">.build</span><span class="selector-class">.version</span><span class="selector-class">.release</span></div></pre></td></tr></table></figure>
+<h2 id="查看屏幕分辨率"><a href="#查看屏幕分辨率" class="headerlink" title="查看屏幕分辨率"></a>查看屏幕分辨率</h2><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span><span class="bash"> wm size</span></div></pre></td></tr></table></figure>
+<h2 id="查看屏幕密度"><a href="#查看屏幕密度" class="headerlink" title="查看屏幕密度"></a>查看屏幕密度</h2><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span><span class="bash"> wm density</span></div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;ADB，即 Android Debug Bridge，Android调试桥，身为 Android 开发的我们，熟练使用 ADB 命令将会大大提升我们的开发效率， ADB 的命令有很多，今天就来总结下我在开发常用到的一些 ADB 命令。&lt;/p&gt;
+&lt;h2 id=&quot;查看版本&quot;&gt;&lt;
+    
+    </summary>
+    
+      <category term="Android - 基础" scheme="http://wjjiang.oschina.io/categories/Android-%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="Android" scheme="http://wjjiang.oschina.io/tags/Android/"/>
+    
+      <category term="adb" scheme="http://wjjiang.oschina.io/tags/adb/"/>
+    
+      <category term="命令" scheme="http://wjjiang.oschina.io/tags/%E5%91%BD%E4%BB%A4/"/>
+    
+  </entry>
   
   <entry>
     <title>Git命令</title>
@@ -48,34 +92,6 @@
   </entry>
   
   <entry>
-    <title>FreeMarker - 快速生成Android Studio工程文件</title>
-    <link href="http://wjjiang.oschina.io/2017/09/06/android-as-freemarker/"/>
-    <id>http://wjjiang.oschina.io/2017/09/06/android-as-freemarker/</id>
-    <published>2017-09-06T02:00:00.000Z</published>
-    <updated>2017-09-06T07:56:51.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="http://blog.csdn.net/lmj623565791/article/details/51635533" target="_blank" rel="external">http://blog.csdn.net/lmj623565791/article/details/51635533</a><br><a href="http://www.jianshu.com/p/7ba79529d365" target="_blank" rel="external">http://www.jianshu.com/p/7ba79529d365</a><br><a href="https://zhuanlan.zhihu.com/p/21301904" target="_blank" rel="external">https://zhuanlan.zhihu.com/p/21301904</a><br><a href="http://www.jianshu.com/p/c76facb61d69" target="_blank" rel="external">http://www.jianshu.com/p/c76facb61d69</a></p>
-<p><a href="https://github.com/JessYanCoding/MVPArmsTemplate" target="_blank" rel="external">https://github.com/JessYanCoding/MVPArmsTemplate</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/lmj623565791/article/details/51635533&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.csdn.net/lmj623565791/art
-    
-    </summary>
-    
-      <category term="TODO" scheme="http://wjjiang.oschina.io/categories/TODO/"/>
-    
-    
-      <category term="FreeMarker" scheme="http://wjjiang.oschina.io/tags/FreeMarker/"/>
-    
-      <category term="Android" scheme="http://wjjiang.oschina.io/tags/Android/"/>
-    
-      <category term="Android Studio" scheme="http://wjjiang.oschina.io/tags/Android-Studio/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Live Templates - 快速生成代码</title>
     <link href="http://wjjiang.oschina.io/2017/09/06/android-as-livetemplate/"/>
     <id>http://wjjiang.oschina.io/2017/09/06/android-as-livetemplate/</id>
@@ -99,6 +115,34 @@
       <category term="Android Studio" scheme="http://wjjiang.oschina.io/tags/Android-Studio/"/>
     
       <category term="Live Templates" scheme="http://wjjiang.oschina.io/tags/Live-Templates/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>FreeMarker - 快速生成Android Studio工程文件</title>
+    <link href="http://wjjiang.oschina.io/2017/09/06/android-as-freemarker/"/>
+    <id>http://wjjiang.oschina.io/2017/09/06/android-as-freemarker/</id>
+    <published>2017-09-06T02:00:00.000Z</published>
+    <updated>2017-09-06T07:56:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://blog.csdn.net/lmj623565791/article/details/51635533" target="_blank" rel="external">http://blog.csdn.net/lmj623565791/article/details/51635533</a><br><a href="http://www.jianshu.com/p/7ba79529d365" target="_blank" rel="external">http://www.jianshu.com/p/7ba79529d365</a><br><a href="https://zhuanlan.zhihu.com/p/21301904" target="_blank" rel="external">https://zhuanlan.zhihu.com/p/21301904</a><br><a href="http://www.jianshu.com/p/c76facb61d69" target="_blank" rel="external">http://www.jianshu.com/p/c76facb61d69</a></p>
+<p><a href="https://github.com/JessYanCoding/MVPArmsTemplate" target="_blank" rel="external">https://github.com/JessYanCoding/MVPArmsTemplate</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/lmj623565791/article/details/51635533&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.csdn.net/lmj623565791/art
+    
+    </summary>
+    
+      <category term="TODO" scheme="http://wjjiang.oschina.io/categories/TODO/"/>
+    
+    
+      <category term="Android" scheme="http://wjjiang.oschina.io/tags/Android/"/>
+    
+      <category term="FreeMarker" scheme="http://wjjiang.oschina.io/tags/FreeMarker/"/>
+    
+      <category term="Android Studio" scheme="http://wjjiang.oschina.io/tags/Android-Studio/"/>
     
   </entry>
   
@@ -283,6 +327,36 @@
   </entry>
   
   <entry>
+    <title>简书收藏</title>
+    <link href="http://wjjiang.oschina.io/2016/09/25/jianshu/"/>
+    <id>http://wjjiang.oschina.io/2016/09/25/jianshu/</id>
+    <published>2016-09-25T02:00:00.000Z</published>
+    <updated>2017-09-06T07:56:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Tinker <a href="http://www.jianshu.com/p/ed17f00a3d23" target="_blank" rel="external">http://www.jianshu.com/p/ed17f00a3d23</a></p>
+<p>Android事件分发机制 <a href="http://www.jianshu.com/p/94770d9cda49" target="_blank" rel="external">http://www.jianshu.com/p/94770d9cda49</a></p>
+<p>Fragment全解析系列 <a href="http://www.jianshu.com/p/d9143a92ad94" target="_blank" rel="external">http://www.jianshu.com/p/d9143a92ad94</a></p>
+<p>Android主题换肤 <a href="http://www.jianshu.com/p/af7c0585dd5b" target="_blank" rel="external">http://www.jianshu.com/p/af7c0585dd5b</a></p>
+<p>Android开发规范 <a href="http://www.jianshu.com/p/4390f4fe19b3" target="_blank" rel="external">http://www.jianshu.com/p/4390f4fe19b3</a></p>
+<p>Android面试 <a href="http://www.jianshu.com/p/a22450882af2" target="_blank" rel="external">http://www.jianshu.com/p/a22450882af2</a></p>
+<p>Android开发者博客 <a href="http://www.jianshu.com/p/82db063280f5" target="_blank" rel="external">http://www.jianshu.com/p/82db063280f5</a></p>
+<p>Android组件化 <a href="http://www.jianshu.com/p/94a05b996d78" target="_blank" rel="external">http://www.jianshu.com/p/94a05b996d78</a></p>
+<p>Android组件化 <a href="http://blog.csdn.net/guiying712/article/details/55213884" target="_blank" rel="external">http://blog.csdn.net/guiying712/article/details/55213884</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Tinker &lt;a href=&quot;http://www.jianshu.com/p/ed17f00a3d23&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/ed17f00a3d23&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;An
+    
+    </summary>
+    
+      <category term="TODO" scheme="http://wjjiang.oschina.io/categories/TODO/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Android Context笔记</title>
     <link href="http://wjjiang.oschina.io/2016/09/25/android-context/"/>
     <id>http://wjjiang.oschina.io/2016/09/25/android-context/</id>
@@ -315,36 +389,6 @@
       <category term="Android" scheme="http://wjjiang.oschina.io/tags/Android/"/>
     
       <category term="Context" scheme="http://wjjiang.oschina.io/tags/Context/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>简书收藏</title>
-    <link href="http://wjjiang.oschina.io/2016/09/25/jianshu/"/>
-    <id>http://wjjiang.oschina.io/2016/09/25/jianshu/</id>
-    <published>2016-09-25T02:00:00.000Z</published>
-    <updated>2017-09-06T07:56:24.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Tinker <a href="http://www.jianshu.com/p/ed17f00a3d23" target="_blank" rel="external">http://www.jianshu.com/p/ed17f00a3d23</a></p>
-<p>Android事件分发机制 <a href="http://www.jianshu.com/p/94770d9cda49" target="_blank" rel="external">http://www.jianshu.com/p/94770d9cda49</a></p>
-<p>Fragment全解析系列 <a href="http://www.jianshu.com/p/d9143a92ad94" target="_blank" rel="external">http://www.jianshu.com/p/d9143a92ad94</a></p>
-<p>Android主题换肤 <a href="http://www.jianshu.com/p/af7c0585dd5b" target="_blank" rel="external">http://www.jianshu.com/p/af7c0585dd5b</a></p>
-<p>Android开发规范 <a href="http://www.jianshu.com/p/4390f4fe19b3" target="_blank" rel="external">http://www.jianshu.com/p/4390f4fe19b3</a></p>
-<p>Android面试 <a href="http://www.jianshu.com/p/a22450882af2" target="_blank" rel="external">http://www.jianshu.com/p/a22450882af2</a></p>
-<p>Android开发者博客 <a href="http://www.jianshu.com/p/82db063280f5" target="_blank" rel="external">http://www.jianshu.com/p/82db063280f5</a></p>
-<p>Android组件化 <a href="http://www.jianshu.com/p/94a05b996d78" target="_blank" rel="external">http://www.jianshu.com/p/94a05b996d78</a></p>
-<p>Android组件化 <a href="http://blog.csdn.net/guiying712/article/details/55213884" target="_blank" rel="external">http://blog.csdn.net/guiying712/article/details/55213884</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Tinker &lt;a href=&quot;http://www.jianshu.com/p/ed17f00a3d23&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/ed17f00a3d23&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;An
-    
-    </summary>
-    
-      <category term="TODO" scheme="http://wjjiang.oschina.io/categories/TODO/"/>
-    
     
   </entry>
   

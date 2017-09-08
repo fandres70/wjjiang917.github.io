@@ -353,6 +353,175 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://wjjiang.oschina.io/2017/09/08/android-adb/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Crazy江">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/img/panda.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Crazy江的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/09/08/android-adb/" itemprop="url">adb操作命令详解及大全</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-08T09:13:00+08:00">
+                2017-09-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Android-基础/" itemprop="url" rel="index">
+                    <span itemprop="name">Android - 基础</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2017/09/08/android-adb/" class="leancloud_visitors" data-flag-title="adb操作命令详解及大全">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>ADB，即 Android Debug Bridge，Android调试桥，身为 Android 开发的我们，熟练使用 ADB 命令将会大大提升我们的开发效率， ADB 的命令有很多，今天就来总结下我在开发常用到的一些 ADB 命令。</p>
+<h2 id="查看版本"><a href="#查看版本" class="headerlink" title="查看版本"></a>查看版本</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb version</span></div></pre></td></tr></table></figure>
+<h2 id="查看连接设备"><a href="#查看连接设备" class="headerlink" title="查看连接设备"></a>查看连接设备</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb devices</span></div></pre></td></tr></table></figure>
+<h2 id="安装apk"><a href="#安装apk" class="headerlink" title="安装apk"></a>安装apk</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb install &lt;apkfile&gt;</span></div><div class="line"><span class="meta">$</span><span class="bash"> adb install -r &lt;apkfile&gt;   --保留数据和缓存文件，重新安装apk</span></div><div class="line"><span class="meta">$</span><span class="bash"> adb install -s &lt;apkfile&gt;   --安装apk到sd卡</span></div></pre></td></tr></table></figure>
+<h2 id="卸载apk"><a href="#卸载apk" class="headerlink" title="卸载apk"></a>卸载apk</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb uninstall &lt;packagename&gt;</span></div><div class="line"><span class="meta">$</span><span class="bash"> adb uninstall -k &lt;packagename&gt; --卸载 app 但保留数据和缓存文件</span></div></pre></td></tr></table></figure>
+<h2 id="查看已安装"><a href="#查看已安装" class="headerlink" title="查看已安装"></a>查看已安装</h2><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span><span class="bash"> pm list packages</span></div><div class="line"><span class="bash">$ adb shell pm list packages -s   --系统应用的所有包名</span></div><div class="line"><span class="bash">$ adb shell pm list packages -3   --除了系统应用的第三方应用包名</span></div></pre></td></tr></table></figure>
+<h2 id="清除应用数据及缓存"><a href="#清除应用数据及缓存" class="headerlink" title="清除应用数据及缓存"></a>清除应用数据及缓存</h2><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span><span class="bash"> pm clear &lt;packagename&gt;</span></div></pre></td></tr></table></figure>
+<h2 id="启动应用"><a href="#启动应用" class="headerlink" title="启动应用"></a>启动应用</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb shell am start -n com<span class="selector-class">.test</span><span class="selector-class">.demo</span>/<span class="selector-class">.ui</span><span class="selector-class">.SplashActivity</span></div></pre></td></tr></table></figure>
+<h2 id="强制停止应用"><a href="#强制停止应用" class="headerlink" title="强制停止应用"></a>强制停止应用</h2><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span> <span class="keyword">am</span> force-<span class="keyword">stop</span> <span class="symbol">&lt;packagename&gt;</span></div></pre></td></tr></table></figure>
+<h2 id="查看日志"><a href="#查看日志" class="headerlink" title="查看日志"></a>查看日志</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb logcat</span></div></pre></td></tr></table></figure>
+<h2 id="重启"><a href="#重启" class="headerlink" title="重启"></a>重启</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb reboot</span></div></pre></td></tr></table></figure>
+<h2 id="获取序列号"><a href="#获取序列号" class="headerlink" title="获取序列号"></a>获取序列号</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb get-serialno</span></div></pre></td></tr></table></figure>
+<h2 id="获取-MAC-地址"><a href="#获取-MAC-地址" class="headerlink" title="获取 MAC 地址"></a>获取 MAC 地址</h2><figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span>  <span class="keyword">cat</span> /sys/<span class="keyword">class</span>/<span class="keyword">net</span>/wlan0/address</div></pre></td></tr></table></figure>
+<h2 id="查看设备型号"><a href="#查看设备型号" class="headerlink" title="查看设备型号"></a>查看设备型号</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb shell getprop ro<span class="selector-class">.product</span><span class="selector-class">.model</span></div></pre></td></tr></table></figure>
+<h2 id="查看-Android-系统版本"><a href="#查看-Android-系统版本" class="headerlink" title="查看 Android 系统版本"></a>查看 Android 系统版本</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb shell getprop ro<span class="selector-class">.build</span><span class="selector-class">.version</span><span class="selector-class">.release</span></div></pre></td></tr></table></figure>
+<h2 id="查看屏幕分辨率"><a href="#查看屏幕分辨率" class="headerlink" title="查看屏幕分辨率"></a>查看屏幕分辨率</h2><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span><span class="bash"> wm size</span></div></pre></td></tr></table></figure>
+<h2 id="查看屏幕密度"><a href="#查看屏幕密度" class="headerlink" title="查看屏幕密度"></a>查看屏幕密度</h2><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span><span class="bash"> wm density</span></div></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://wjjiang.oschina.io/2017/09/07/git/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -513,6 +682,159 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://wjjiang.oschina.io/2017/09/06/android-as-livetemplate/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Crazy江">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/img/panda.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Crazy江的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/09/06/android-as-livetemplate/" itemprop="url">Live Templates - 快速生成代码</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-06T10:00:00+08:00">
+                2017-09-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/TODO/" itemprop="url" rel="index">
+                    <span itemprop="name">TODO</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2017/09/06/android-as-livetemplate/" class="leancloud_visitors" data-flag-title="Live Templates - 快速生成代码">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><a href="http://www.jianshu.com/p/baf524daa1e1" target="_blank" rel="external">http://www.jianshu.com/p/baf524daa1e1</a><br><a href="https://jingyan.baidu.com/article/20095761ccc749cb0721b43f.html" target="_blank" rel="external">https://jingyan.baidu.com/article/20095761ccc749cb0721b43f.html</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://wjjiang.oschina.io/2017/09/06/android-as-freemarker/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -619,159 +941,6 @@
           
             <p><a href="http://blog.csdn.net/lmj623565791/article/details/51635533" target="_blank" rel="external">http://blog.csdn.net/lmj623565791/article/details/51635533</a><br><a href="http://www.jianshu.com/p/7ba79529d365" target="_blank" rel="external">http://www.jianshu.com/p/7ba79529d365</a><br><a href="https://zhuanlan.zhihu.com/p/21301904" target="_blank" rel="external">https://zhuanlan.zhihu.com/p/21301904</a><br><a href="http://www.jianshu.com/p/c76facb61d69" target="_blank" rel="external">http://www.jianshu.com/p/c76facb61d69</a></p>
 <p><a href="https://github.com/JessYanCoding/MVPArmsTemplate" target="_blank" rel="external">https://github.com/JessYanCoding/MVPArmsTemplate</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://wjjiang.oschina.io/2017/09/06/android-as-livetemplate/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Crazy江">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/img/panda.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Crazy江的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/09/06/android-as-livetemplate/" itemprop="url">Live Templates - 快速生成代码</a></h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-06T10:00:00+08:00">
-                2017-09-06
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/TODO/" itemprop="url" rel="index">
-                    <span itemprop="name">TODO</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2017/09/06/android-as-livetemplate/" class="leancloud_visitors" data-flag-title="Live Templates - 快速生成代码">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><a href="http://www.jianshu.com/p/baf524daa1e1" target="_blank" rel="external">http://www.jianshu.com/p/baf524daa1e1</a><br><a href="https://jingyan.baidu.com/article/20095761ccc749cb0721b43f.html" target="_blank" rel="external">https://jingyan.baidu.com/article/20095761ccc749cb0721b43f.html</a></p>
 
           
         
@@ -1510,170 +1679,6 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://wjjiang.oschina.io/2016/09/25/android-context/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Crazy江">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/img/panda.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Crazy江的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2016/09/25/android-context/" itemprop="url">Android Context笔记</a></h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-09-25T10:00:00+08:00">
-                2016-09-25
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Android-基础/" itemprop="url" rel="index">
-                    <span itemprop="name">Android - 基础</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2016/09/25/android-context/" class="leancloud_visitors" data-flag-title="Android Context笔记">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="Context是？"><a href="#Context是？" class="headerlink" title="Context是？"></a>Context是？</h2><figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">Interface <span class="keyword">to</span> <span class="keyword">global</span> information <span class="keyword">about</span> an <span class="built_in">application</span> environment. </div><div class="line">This <span class="keyword">is</span> an abstract <span class="built_in">class</span> <span class="keyword">whose</span> implementation <span class="keyword">is</span> provided <span class="keyword">by</span> <span class="keyword">the</span> Android system. </div><div class="line">It allows access <span class="keyword">to</span> <span class="built_in">application</span>-specific resources <span class="keyword">and</span> classes, </div><div class="line"><span class="keyword">as</span> well <span class="keyword">as</span> up-calls <span class="keyword">for</span> <span class="built_in">application</span>-level operations such <span class="keyword">as</span> launching activities, </div><div class="line">broadcasting <span class="keyword">and</span> receiving intents, etc</div></pre></td></tr></table></figure>
-<blockquote>
-<p>Context个数 ＝ 1(Application) + Activity个数 + Service个数</p>
-</blockquote>
-<h2 id="Context应用场景"><a href="#Context应用场景" class="headerlink" title="Context应用场景"></a>Context应用场景</h2><ul>
-<li><strong>Application</strong>：一个应用在创建的时候只会创建一个ActivityThread主线程，而在初始化ActivityThread主线程的时候就会创建一个Application对象。Application是全局的，在Activity和Service里都可以调用getApplication方法来获得一个应用的Application对象。Application的父类是ContextWrapper类。</li>
-<li><strong>Service</strong>：Service父类是ContextWrapper，一个应用每创建一个Service，都会创建一个ContextImpl类去关联Service。</li>
-<li><strong>Activity</strong>：Activity父类是ContextThemeWrapper，而ContextThemeWrapper父类是ContextWrapper。ContextThemeWrapper类是其父类的扩张，里面额外添加了关于主题设置的一些方法。在ActivityThread主线程中创建Activity的时候我们知道，创建完了Activity之后会立马调用Activity#setTheme设置Activity的主题。</li>
-</ul>
-<h2 id="getApplication和getApplicationContext区别"><a href="#getApplication和getApplicationContext区别" class="headerlink" title="getApplication和getApplicationContext区别"></a>getApplication和getApplicationContext区别</h2><blockquote>
-<p>Read The Fucking Source Code </p>
-<p style="text-align:right">– Linus Benedict Torvalds</p></blockquote>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://wjjiang.oschina.io/2016/09/25/jianshu/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1835,7 +1840,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://wjjiang.oschina.io/2016/09/05/android-nomedia/">
+    <link itemprop="mainEntityOfPage" href="http://wjjiang.oschina.io/2016/09/25/android-context/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Crazy江">
@@ -1854,7 +1859,7 @@
         
           <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/09/05/android-nomedia/" itemprop="url">Android避免资源被系统扫描并显示 - .nomedia</a></h2>
+                <a class="post-title-link" href="/2016/09/25/android-context/" itemprop="url">Android Context笔记</a></h2>
         
 
         <div class="post-meta">
@@ -1866,8 +1871,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-09-05T10:00:00+08:00">
-                2016-09-05
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-09-25T10:00:00+08:00">
+                2016-09-25
               </time>
             
 
@@ -1906,7 +1911,7 @@
 
           
           
-             <span id="/2016/09/05/android-nomedia/" class="leancloud_visitors" data-flag-title="Android避免资源被系统扫描并显示 - .nomedia">
+             <span id="/2016/09/25/android-context/" class="leancloud_visitors" data-flag-title="Android Context笔记">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -1939,16 +1944,18 @@
       
         
           
-            <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>最近做的直播应用中，贴纸功能需要从服务器下载贴纸资源（含图片）。下载到本地后，会在相册中被列出来～  怎么做到不在相册中显示呢？ <strong>.nomedia</strong></p>
-<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>这是 <a href="https://developer.android.com/guide/topics/data/data-storage.html?hl=zh-cn" target="_blank" rel="external">官网</a>对.nomedia的解释：</p>
+            <h2 id="Context是？"><a href="#Context是？" class="headerlink" title="Context是？"></a>Context是？</h2><figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">Interface <span class="keyword">to</span> <span class="keyword">global</span> information <span class="keyword">about</span> an <span class="built_in">application</span> environment. </div><div class="line">This <span class="keyword">is</span> an abstract <span class="built_in">class</span> <span class="keyword">whose</span> implementation <span class="keyword">is</span> provided <span class="keyword">by</span> <span class="keyword">the</span> Android system. </div><div class="line">It allows access <span class="keyword">to</span> <span class="built_in">application</span>-specific resources <span class="keyword">and</span> classes, </div><div class="line"><span class="keyword">as</span> well <span class="keyword">as</span> up-calls <span class="keyword">for</span> <span class="built_in">application</span>-level operations such <span class="keyword">as</span> launching activities, </div><div class="line">broadcasting <span class="keyword">and</span> receiving intents, etc</div></pre></td></tr></table></figure>
 <blockquote>
-<p>在媒体扫描程序中隐藏您的文件在您的外部文件目录中包含名为 .nomedia<br> 的空文件（注意文件名中的点前缀）。 这将阻止媒体扫描程序读取您的媒体文件，并通过 <a href="https://developer.android.com/reference/android/provider/MediaStore.html?hl=zh-cn" target="_blank" rel="external">MediaStore</a>内容提供程序将其提供给其他应用。 但如果您的文件真正是应用的私有文件，则应该<a href="https://developer.android.com/guide/topics/data/data-storage.html?hl=zh-cn#AccessingExtFiles" target="_blank" rel="external">将其保存在应用私有的目录中</a>。</p>
+<p>Context个数 ＝ 1(Application) + Activity个数 + Service个数</p>
 </blockquote>
-<p>所以通过新建.nomedia文件还能阻止媒体扫描程序读取音频、视频和图片文件。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">File file = <span class="keyword">new</span> File(filePath + <span class="string">"/.nomedia"</span> );  </div><div class="line"><span class="keyword">if</span> (!file.exists())&#123;</div><div class="line">    <span class="keyword">try</span> &#123;  </div><div class="line">        file.createNewFile();  </div><div class="line">    &#125; <span class="keyword">catch</span> (Exception e) &#123;  </div><div class="line">        e.printStackTrace();  </div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p><br></p>
-<hr>
-<p><em>当然，你也能通过修改文件类型，改成系统不可认的类型即可；或者将上级目录修改为“.folderName”</em></p>
+<h2 id="Context应用场景"><a href="#Context应用场景" class="headerlink" title="Context应用场景"></a>Context应用场景</h2><ul>
+<li><strong>Application</strong>：一个应用在创建的时候只会创建一个ActivityThread主线程，而在初始化ActivityThread主线程的时候就会创建一个Application对象。Application是全局的，在Activity和Service里都可以调用getApplication方法来获得一个应用的Application对象。Application的父类是ContextWrapper类。</li>
+<li><strong>Service</strong>：Service父类是ContextWrapper，一个应用每创建一个Service，都会创建一个ContextImpl类去关联Service。</li>
+<li><strong>Activity</strong>：Activity父类是ContextThemeWrapper，而ContextThemeWrapper父类是ContextWrapper。ContextThemeWrapper类是其父类的扩张，里面额外添加了关于主题设置的一些方法。在ActivityThread主线程中创建Activity的时候我们知道，创建完了Activity之后会立马调用Activity#setTheme设置Activity的主题。</li>
+</ul>
+<h2 id="getApplication和getApplicationContext区别"><a href="#getApplication和getApplicationContext区别" class="headerlink" title="getApplication和getApplicationContext区别"></a>getApplication和getApplicationContext区别</h2><blockquote>
+<p>Read The Fucking Source Code </p>
+<p style="text-align:right">– Linus Benedict Torvalds</p></blockquote>
 
           
         
@@ -2034,7 +2041,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">11</span>
+                <span class="site-state-item-count">12</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -2056,7 +2063,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">15</span>
+                <span class="site-state-item-count">17</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>

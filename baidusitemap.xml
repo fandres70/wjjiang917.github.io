@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>http://wjjiang.oschina.io/2017/09/08/android-adb/</loc>
+    <lastmod>2017-09-08T01:39:44.000Z</lastmod>
+    <data>
+        <display>
+        <title>adb操作命令详解及大全</title>
+        <pubTime>2017-09-08T01:13:00.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>adb</tag>
+         
+        <tag>命令</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android - 基础" url="http://wjjiang.oschina.io/categories/Android-%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://wjjiang.oschina.io/2017/09/07/git/</loc>
     <lastmod>2017-09-07T05:51:04.000Z</lastmod>
     <data>
@@ -31,9 +55,9 @@
         <title>FreeMarker - 快速生成Android Studio工程文件</title>
         <pubTime>2017-09-06T02:00:00.000Z</pubTime>
         
-        <tag>FreeMarker</tag>
-         
         <tag>Android</tag>
+         
+        <tag>FreeMarker</tag>
          
         <tag>Android Studio</tag>
          

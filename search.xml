@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[adb操作命令详解及大全]]></title>
+    <url>%2F2017%2F09%2F08%2Fandroid-adb%2F</url>
+    <content type="text"><![CDATA[ADB，即 Android Debug Bridge，Android调试桥，身为 Android 开发的我们，熟练使用 ADB 命令将会大大提升我们的开发效率， ADB 的命令有很多，今天就来总结下我在开发常用到的一些 ADB 命令。 查看版本1$ adb version 查看连接设备1$ adb devices 安装apk123$ adb install &lt;apkfile&gt;$ adb install -r &lt;apkfile&gt; --保留数据和缓存文件，重新安装apk$ adb install -s &lt;apkfile&gt; --安装apk到sd卡 卸载apk12$ adb uninstall &lt;packagename&gt;$ adb uninstall -k &lt;packagename&gt; --卸载 app 但保留数据和缓存文件 查看已安装123$ adb shell pm list packages$ adb shell pm list packages -s --系统应用的所有包名$ adb shell pm list packages -3 --除了系统应用的第三方应用包名 清除应用数据及缓存1$ adb shell pm clear &lt;packagename&gt; 启动应用1$ adb shell am start -n com.test.demo/.ui.SplashActivity 强制停止应用1$ adb shell am force-stop &lt;packagename&gt; 查看日志1$ adb logcat 重启1$ adb reboot 获取序列号1$ adb get-serialno 获取 MAC 地址1$ adb shell cat /sys/class/net/wlan0/address 查看设备型号1$ adb shell getprop ro.product.model 查看 Android 系统版本1$ adb shell getprop ro.build.version.release 查看屏幕分辨率1$ adb shell wm size 查看屏幕密度1$ adb shell wm density]]></content>
+      <categories>
+        <category>Android - 基础</category>
+      </categories>
+      <tags>
+        <tag>Android</tag>
+        <tag>adb</tag>
+        <tag>命令</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Git命令]]></title>
     <url>%2F2017%2F09%2F07%2Fgit%2F</url>
     <content type="text"><![CDATA[将本地目录上传到远程仓库 git init git add . git commit -am “###” git remote add origin https://gitee.com/wjjiang/CustomView.git git pull –rebase origin master git push origin master]]></content>
@@ -9,19 +22,6 @@
       </categories>
       <tags>
         <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[FreeMarker - 快速生成Android Studio工程文件]]></title>
-    <url>%2F2017%2F09%2F06%2Fandroid-as-freemarker%2F</url>
-    <content type="text"><![CDATA[http://blog.csdn.net/lmj623565791/article/details/51635533http://www.jianshu.com/p/7ba79529d365https://zhuanlan.zhihu.com/p/21301904http://www.jianshu.com/p/c76facb61d69 https://github.com/JessYanCoding/MVPArmsTemplate]]></content>
-      <categories>
-        <category>TODO</category>
-      </categories>
-      <tags>
-        <tag>FreeMarker</tag>
-        <tag>Android</tag>
-        <tag>Android Studio</tag>
       </tags>
   </entry>
   <entry>
@@ -35,6 +35,19 @@
         <tag>Android</tag>
         <tag>Android Studio</tag>
         <tag>Live Templates</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[FreeMarker - 快速生成Android Studio工程文件]]></title>
+    <url>%2F2017%2F09%2F06%2Fandroid-as-freemarker%2F</url>
+    <content type="text"><![CDATA[http://blog.csdn.net/lmj623565791/article/details/51635533http://www.jianshu.com/p/7ba79529d365https://zhuanlan.zhihu.com/p/21301904http://www.jianshu.com/p/c76facb61d69 https://github.com/JessYanCoding/MVPArmsTemplate]]></content>
+      <categories>
+        <category>TODO</category>
+      </categories>
+      <tags>
+        <tag>Android</tag>
+        <tag>FreeMarker</tag>
+        <tag>Android Studio</tag>
       </tags>
   </entry>
   <entry>
@@ -87,6 +100,14 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[简书收藏]]></title>
+    <url>%2F2016%2F09%2F25%2Fjianshu%2F</url>
+    <content type="text"><![CDATA[Tinker http://www.jianshu.com/p/ed17f00a3d23 Android事件分发机制 http://www.jianshu.com/p/94770d9cda49 Fragment全解析系列 http://www.jianshu.com/p/d9143a92ad94 Android主题换肤 http://www.jianshu.com/p/af7c0585dd5b Android开发规范 http://www.jianshu.com/p/4390f4fe19b3 Android面试 http://www.jianshu.com/p/a22450882af2 Android开发者博客 http://www.jianshu.com/p/82db063280f5 Android组件化 http://www.jianshu.com/p/94a05b996d78 Android组件化 http://blog.csdn.net/guiying712/article/details/55213884]]></content>
+      <categories>
+        <category>TODO</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[Android Context笔记]]></title>
     <url>%2F2016%2F09%2F25%2Fandroid-context%2F</url>
     <content type="text"><![CDATA[Context是？12345Interface to global information about an application environment. This is an abstract class whose implementation is provided by the Android system. It allows access to application-specific resources and classes, as well as up-calls for application-level operations such as launching activities, broadcasting and receiving intents, etc Context个数 ＝ 1(Application) + Activity个数 + Service个数 Context应用场景 Application：一个应用在创建的时候只会创建一个ActivityThread主线程，而在初始化ActivityThread主线程的时候就会创建一个Application对象。Application是全局的，在Activity和Service里都可以调用getApplication方法来获得一个应用的Application对象。Application的父类是ContextWrapper类。 Service：Service父类是ContextWrapper，一个应用每创建一个Service，都会创建一个ContextImpl类去关联Service。 Activity：Activity父类是ContextThemeWrapper，而ContextThemeWrapper父类是ContextWrapper。ContextThemeWrapper类是其父类的扩张，里面额外添加了关于主题设置的一些方法。在ActivityThread主线程中创建Activity的时候我们知道，创建完了Activity之后会立马调用Activity#setTheme设置Activity的主题。 getApplication和getApplicationContext区别 Read The Fucking Source Code – Linus Benedict Torvalds]]></content>
@@ -97,14 +118,6 @@
         <tag>Android</tag>
         <tag>Context</tag>
       </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[简书收藏]]></title>
-    <url>%2F2016%2F09%2F25%2Fjianshu%2F</url>
-    <content type="text"><![CDATA[Tinker http://www.jianshu.com/p/ed17f00a3d23 Android事件分发机制 http://www.jianshu.com/p/94770d9cda49 Fragment全解析系列 http://www.jianshu.com/p/d9143a92ad94 Android主题换肤 http://www.jianshu.com/p/af7c0585dd5b Android开发规范 http://www.jianshu.com/p/4390f4fe19b3 Android面试 http://www.jianshu.com/p/a22450882af2 Android开发者博客 http://www.jianshu.com/p/82db063280f5 Android组件化 http://www.jianshu.com/p/94a05b996d78 Android组件化 http://blog.csdn.net/guiying712/article/details/55213884]]></content>
-      <categories>
-        <category>TODO</category>
-      </categories>
   </entry>
   <entry>
     <title><![CDATA[Android避免资源被系统扫描并显示 - .nomedia]]></title>

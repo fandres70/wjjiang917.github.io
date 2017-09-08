@@ -353,6 +353,168 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://wjjiang.oschina.io/2016/09/05/android-nomedia/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Crazy江">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/img/panda.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Crazy江的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/09/05/android-nomedia/" itemprop="url">Android避免资源被系统扫描并显示 - .nomedia</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-09-05T10:00:00+08:00">
+                2016-09-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Android-基础/" itemprop="url" rel="index">
+                    <span itemprop="name">Android - 基础</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2016/09/05/android-nomedia/" class="leancloud_visitors" data-flag-title="Android避免资源被系统扫描并显示 - .nomedia">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>最近做的直播应用中，贴纸功能需要从服务器下载贴纸资源（含图片）。下载到本地后，会在相册中被列出来～  怎么做到不在相册中显示呢？ <strong>.nomedia</strong></p>
+<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>这是 <a href="https://developer.android.com/guide/topics/data/data-storage.html?hl=zh-cn" target="_blank" rel="external">官网</a>对.nomedia的解释：</p>
+<blockquote>
+<p>在媒体扫描程序中隐藏您的文件在您的外部文件目录中包含名为 .nomedia<br> 的空文件（注意文件名中的点前缀）。 这将阻止媒体扫描程序读取您的媒体文件，并通过 <a href="https://developer.android.com/reference/android/provider/MediaStore.html?hl=zh-cn" target="_blank" rel="external">MediaStore</a>内容提供程序将其提供给其他应用。 但如果您的文件真正是应用的私有文件，则应该<a href="https://developer.android.com/guide/topics/data/data-storage.html?hl=zh-cn#AccessingExtFiles" target="_blank" rel="external">将其保存在应用私有的目录中</a>。</p>
+</blockquote>
+<p>所以通过新建.nomedia文件还能阻止媒体扫描程序读取音频、视频和图片文件。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">File file = <span class="keyword">new</span> File(filePath + <span class="string">"/.nomedia"</span> );  </div><div class="line"><span class="keyword">if</span> (!file.exists())&#123;</div><div class="line">    <span class="keyword">try</span> &#123;  </div><div class="line">        file.createNewFile();  </div><div class="line">    &#125; <span class="keyword">catch</span> (Exception e) &#123;  </div><div class="line">        e.printStackTrace();  </div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><br></p>
+<hr>
+<p><em>当然，你也能通过修改文件类型，改成系统不可认的类型即可；或者将上级目录修改为“.folderName”</em></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://wjjiang.oschina.io/2016/09/05/markdemo/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -613,7 +775,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">11</span>
+                <span class="site-state-item-count">12</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -635,7 +797,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">15</span>
+                <span class="site-state-item-count">17</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>

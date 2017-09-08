@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Crazy, wjjiang, wjjiang917, 江文进, Crazy江, Blog, Crazy江的博客, Crazy Jiang's Blog, Android, Stay hungry, stay foolish, oschina, oschina.io" />
+  <meta name="keywords" content="Android,adb,命令," />
 
 
 
@@ -96,16 +96,18 @@
 
 
 
-<meta name="description" content="Stay hungry, stay foolish!">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Crazy江的博客">
-<meta property="og:url" content="http://wjjiang.oschina.io/categories/随笔/index.html">
+<meta name="description" content="ADB，即 Android Debug Bridge，Android调试桥，身为 Android 开发的我们，熟练使用 ADB 命令将会大大提升我们的开发效率， ADB 的命令有很多，今天就来总结下我在开发常用到的一些 ADB 命令。 查看版本1$ adb version 查看连接设备1$ adb devices 安装apk123$ adb install &amp;lt;apkfile&amp;gt;$ adb">
+<meta name="keywords" content="Android,adb,命令">
+<meta property="og:type" content="article">
+<meta property="og:title" content="adb操作命令详解及大全">
+<meta property="og:url" content="http://wjjiang.oschina.io/2017/09/08/android-adb/index.html">
 <meta property="og:site_name" content="Crazy江的博客">
-<meta property="og:description" content="Stay hungry, stay foolish!">
+<meta property="og:description" content="ADB，即 Android Debug Bridge，Android调试桥，身为 Android 开发的我们，熟练使用 ADB 命令将会大大提升我们的开发效率， ADB 的命令有很多，今天就来总结下我在开发常用到的一些 ADB 命令。 查看版本1$ adb version 查看连接设备1$ adb devices 安装apk123$ adb install &amp;lt;apkfile&amp;gt;$ adb">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-09-08T01:39:44.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Crazy江的博客">
-<meta name="twitter:description" content="Stay hungry, stay foolish!">
+<meta name="twitter:title" content="adb操作命令详解及大全">
+<meta name="twitter:description" content="ADB，即 Android Debug Bridge，Android调试桥，身为 Android 开发的我们，熟练使用 ADB 命令将会大大提升我们的开发效率， ADB 的命令有很多，今天就来总结下我在开发常用到的一些 ADB 命令。 查看版本1$ adb version 查看连接设备1$ adb devices 安装apk123$ adb install &amp;lt;apkfile&amp;gt;$ adb">
 
 
 
@@ -134,13 +136,13 @@
 
 
 
-  <link rel="canonical" href="http://wjjiang.oschina.io/categories/随笔/"/>
+  <link rel="canonical" href="http://wjjiang.oschina.io/2017/09/08/android-adb/"/>
 
 
 
 
 
-  <title>分类: 随笔 | Crazy江的博客</title>
+  <title>adb操作命令详解及大全 | Crazy江的博客</title>
   
 
 
@@ -175,7 +177,7 @@
     
   
 
-  <div class="container sidebar-position-left  ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -337,111 +339,252 @@
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block category">
-
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h2>随笔<small>分类</small>
-        </h2>
-      </div>
-
-      
-        
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://wjjiang.oschina.io/2017/09/08/android-adb/">
 
-      <h3 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Crazy江">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/img/panda.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Crazy江的博客">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2017/09/05/lantern/" itemprop="url">
-              
-                <span itemprop="name">免费VPN - 蓝灯lantern  邀请码YFPJ9TJ</span>
-              
-            </a>
         
-      </h3>
+          <h2 class="post-title" itemprop="name headline">adb操作命令详解及大全</h2>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-09-05T00:00:00+08:00"
-              content="2017-09-05" >
-          09-05
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-08T09:13:00+08:00">
+                2017-09-08
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Android-基础/" itemprop="url" rel="index">
+                    <span itemprop="name">Android - 基础</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2017/09/08/android-adb/" class="leancloud_visitors" data-flag-title="adb操作命令详解及大全">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2017/08/05/hexo-oschina/" itemprop="url">
-              
-                <span itemprop="name">Hexo+oschina，免费拥有自己的博客</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-08-05T12:00:00+08:00"
-              content="2017-08-05" >
-          08-05
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+      
 
       
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2016/09/05/markdemo/" itemprop="url">
-              
-                <span itemprop="name">Markdown demo</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-09-05T00:00:00+08:00"
-              content="2016-09-05" >
-          09-05
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+        <p>ADB，即 Android Debug Bridge，Android调试桥，身为 Android 开发的我们，熟练使用 ADB 命令将会大大提升我们的开发效率， ADB 的命令有很多，今天就来总结下我在开发常用到的一些 ADB 命令。</p>
+<h2 id="查看版本"><a href="#查看版本" class="headerlink" title="查看版本"></a>查看版本</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb version</span></div></pre></td></tr></table></figure>
+<h2 id="查看连接设备"><a href="#查看连接设备" class="headerlink" title="查看连接设备"></a>查看连接设备</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb devices</span></div></pre></td></tr></table></figure>
+<h2 id="安装apk"><a href="#安装apk" class="headerlink" title="安装apk"></a>安装apk</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb install &lt;apkfile&gt;</span></div><div class="line"><span class="meta">$</span><span class="bash"> adb install -r &lt;apkfile&gt;   --保留数据和缓存文件，重新安装apk</span></div><div class="line"><span class="meta">$</span><span class="bash"> adb install -s &lt;apkfile&gt;   --安装apk到sd卡</span></div></pre></td></tr></table></figure>
+<h2 id="卸载apk"><a href="#卸载apk" class="headerlink" title="卸载apk"></a>卸载apk</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb uninstall &lt;packagename&gt;</span></div><div class="line"><span class="meta">$</span><span class="bash"> adb uninstall -k &lt;packagename&gt; --卸载 app 但保留数据和缓存文件</span></div></pre></td></tr></table></figure>
+<h2 id="查看已安装"><a href="#查看已安装" class="headerlink" title="查看已安装"></a>查看已安装</h2><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span><span class="bash"> pm list packages</span></div><div class="line"><span class="bash">$ adb shell pm list packages -s   --系统应用的所有包名</span></div><div class="line"><span class="bash">$ adb shell pm list packages -3   --除了系统应用的第三方应用包名</span></div></pre></td></tr></table></figure>
+<h2 id="清除应用数据及缓存"><a href="#清除应用数据及缓存" class="headerlink" title="清除应用数据及缓存"></a>清除应用数据及缓存</h2><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span><span class="bash"> pm clear &lt;packagename&gt;</span></div></pre></td></tr></table></figure>
+<h2 id="启动应用"><a href="#启动应用" class="headerlink" title="启动应用"></a>启动应用</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb shell am start -n com<span class="selector-class">.test</span><span class="selector-class">.demo</span>/<span class="selector-class">.ui</span><span class="selector-class">.SplashActivity</span></div></pre></td></tr></table></figure>
+<h2 id="强制停止应用"><a href="#强制停止应用" class="headerlink" title="强制停止应用"></a>强制停止应用</h2><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span> <span class="keyword">am</span> force-<span class="keyword">stop</span> <span class="symbol">&lt;packagename&gt;</span></div></pre></td></tr></table></figure>
+<h2 id="查看日志"><a href="#查看日志" class="headerlink" title="查看日志"></a>查看日志</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb logcat</span></div></pre></td></tr></table></figure>
+<h2 id="重启"><a href="#重启" class="headerlink" title="重启"></a>重启</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb reboot</span></div></pre></td></tr></table></figure>
+<h2 id="获取序列号"><a href="#获取序列号" class="headerlink" title="获取序列号"></a>获取序列号</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb get-serialno</span></div></pre></td></tr></table></figure>
+<h2 id="获取-MAC-地址"><a href="#获取-MAC-地址" class="headerlink" title="获取 MAC 地址"></a>获取 MAC 地址</h2><figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span>  <span class="keyword">cat</span> /sys/<span class="keyword">class</span>/<span class="keyword">net</span>/wlan0/address</div></pre></td></tr></table></figure>
+<h2 id="查看设备型号"><a href="#查看设备型号" class="headerlink" title="查看设备型号"></a>查看设备型号</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb shell getprop ro<span class="selector-class">.product</span><span class="selector-class">.model</span></div></pre></td></tr></table></figure>
+<h2 id="查看-Android-系统版本"><a href="#查看-Android-系统版本" class="headerlink" title="查看 Android 系统版本"></a>查看 Android 系统版本</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb shell getprop ro<span class="selector-class">.build</span><span class="selector-class">.version</span><span class="selector-class">.release</span></div></pre></td></tr></table></figure>
+<h2 id="查看屏幕分辨率"><a href="#查看屏幕分辨率" class="headerlink" title="查看屏幕分辨率"></a>查看屏幕分辨率</h2><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span><span class="bash"> wm size</span></div></pre></td></tr></table></figure>
+<h2 id="查看屏幕密度"><a href="#查看屏幕密度" class="headerlink" title="查看屏幕密度"></a>查看屏幕密度</h2><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span><span class="bash"> wm density</span></div></pre></td></tr></table></figure>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>Donate</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/img/wechatpay.jpg" alt="Crazy江 WeChat Pay"/>
+        <p>WeChat Pay</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/img/alipay.jpg" alt="Crazy江 Alipay"/>
+        <p>Alipay</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Android/" rel="tag"># Android</a>
+          
+            <a href="/tags/adb/" rel="tag"># adb</a>
+          
+            <a href="/tags/命令/" rel="tag"># 命令</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/09/07/git/" rel="next" title="Git命令">
+                <i class="fa fa-chevron-left"></i> Git命令
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+  <a class="jiathis_button_tsina"></a>
+  <a class="jiathis_button_tqq"></a>
+  <a class="jiathis_button_weixin"></a>
+  <a class="jiathis_button_cqq"></a>
+  <a class="jiathis_button_douban"></a>
+  <a class="jiathis_button_renren"></a>
+  <a class="jiathis_button_qzone"></a>
+  <a class="jiathis_button_kaixin001"></a>
+  <a class="jiathis_button_copy"></a>
+  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+  <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+  var jiathis_config={
+    hideMore:false
+  }
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+      
+    </div>
+  </div>
 
 
           </div>
@@ -449,6 +592,12 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div id="uyan_frame"></div>
+    
+  </div>
+
 
         </div>
         
@@ -469,8 +618,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/img/panda.png"
@@ -563,6 +721,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#查看版本"><span class="nav-number">1.</span> <span class="nav-text">查看版本</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看连接设备"><span class="nav-number">2.</span> <span class="nav-text">查看连接设备</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装apk"><span class="nav-number">3.</span> <span class="nav-text">安装apk</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#卸载apk"><span class="nav-number">4.</span> <span class="nav-text">卸载apk</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看已安装"><span class="nav-number">5.</span> <span class="nav-text">查看已安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#清除应用数据及缓存"><span class="nav-number">6.</span> <span class="nav-text">清除应用数据及缓存</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#启动应用"><span class="nav-number">7.</span> <span class="nav-text">启动应用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#强制停止应用"><span class="nav-number">8.</span> <span class="nav-text">强制停止应用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看日志"><span class="nav-number">9.</span> <span class="nav-text">查看日志</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#重启"><span class="nav-number">10.</span> <span class="nav-text">重启</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#获取序列号"><span class="nav-number">11.</span> <span class="nav-text">获取序列号</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#获取-MAC-地址"><span class="nav-number">12.</span> <span class="nav-text">获取 MAC 地址</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看设备型号"><span class="nav-number">13.</span> <span class="nav-text">查看设备型号</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看-Android-系统版本"><span class="nav-number">14.</span> <span class="nav-text">查看 Android 系统版本</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看屏幕分辨率"><span class="nav-number">15.</span> <span class="nav-text">查看屏幕分辨率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看屏幕密度"><span class="nav-number">16.</span> <span class="nav-text">查看屏幕密度</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -697,10 +871,10 @@
 
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
 
-  
+
 
   
 
@@ -726,6 +900,10 @@
   
     
 
+    
+      <!-- UY BEGIN -->
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2143275"></script>
+      <!-- UY END -->
     
   
 
@@ -1205,26 +1383,6 @@
   
 
   
-  
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-          processEscapes: true,
-          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-        }
-      });
-    </script>
-
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for (i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-      });
-    </script>
-    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
   
 
 
