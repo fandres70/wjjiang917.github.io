@@ -474,7 +474,7 @@
 <h2 id="查看-Android-系统版本"><a href="#查看-Android-系统版本" class="headerlink" title="查看 Android 系统版本"></a>查看 Android 系统版本</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb shell getprop ro<span class="selector-class">.build</span><span class="selector-class">.version</span><span class="selector-class">.release</span></div></pre></td></tr></table></figure>
 <h2 id="查看屏幕分辨率"><a href="#查看屏幕分辨率" class="headerlink" title="查看屏幕分辨率"></a>查看屏幕分辨率</h2><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span><span class="bash"> wm size</span></div></pre></td></tr></table></figure>
 <h2 id="查看屏幕密度"><a href="#查看屏幕密度" class="headerlink" title="查看屏幕密度"></a>查看屏幕密度</h2><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span><span class="bash"> wm density</span></div></pre></td></tr></table></figure>
-
+<h2 id="进程状态"><a href="#进程状态" class="headerlink" title="进程状态"></a>进程状态</h2><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ adb <span class="keyword">shell</span> <span class="keyword">ps</span>      -- <span class="keyword">p</span><span class="variable">s:</span> process status</div></pre></td></tr></table></figure>
           
         
       
@@ -626,15 +626,9 @@
       
         
           
-            <h2 id="将本地目录上传到远程仓库"><a href="#将本地目录上传到远程仓库" class="headerlink" title="将本地目录上传到远程仓库"></a>将本地目录上传到远程仓库</h2><ul>
-<li>git init</li>
-<li>git add .</li>
-<li>git commit -am “###”</li>
-<li>git remote add origin <a href="https://gitee.com/wjjiang/CustomView.git" target="_blank" rel="external">https://gitee.com/wjjiang/CustomView.git</a></li>
-<li>git pull –rebase origin master</li>
-<li>git push origin master</li>
-</ul>
-
+            <h2 id="将本地目录上传到远程仓库"><a href="#将本地目录上传到远程仓库" class="headerlink" title="将本地目录上传到远程仓库"></a>将本地目录上传到远程仓库</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> git init</span></div><div class="line"><span class="meta">$</span><span class="bash"> git add .</span></div><div class="line"><span class="meta">$</span><span class="bash"> git commit -am <span class="string">"###"</span></span></div><div class="line"><span class="meta">$</span><span class="bash"> git remote add origin https://gitee.com/wjjiang/CustomView.git</span></div><div class="line"><span class="meta">$</span><span class="bash"> git pull --rebase origin master</span></div><div class="line"><span class="meta">$</span><span class="bash"> git push origin master</span></div></pre></td></tr></table></figure>
+<h2 id="查看代码修改的内容"><a href="#查看代码修改的内容" class="headerlink" title="查看代码修改的内容"></a>查看代码修改的内容</h2><figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ git diff &lt;<span class="built_in">file</span>&gt;  <span class="comment">--比较某文件与最近提交节点的差异</span></div><div class="line">$ git diff &lt;hashcode&gt; &lt;hashcode&gt; &lt;<span class="built_in">file</span>&gt;   <span class="comment">--比较某文件在提交节点a，节点b的差异</span></div></pre></td></tr></table></figure>
+<h2 id="撤销本地修改"><a href="#撤销本地修改" class="headerlink" title="撤销本地修改"></a>撤销本地修改</h2><figure class="highlight gams"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">$</span> git checkout -- &lt;<span class="keyword">file</span>&gt;</div></pre></td></tr></table></figure>
           
         
       
