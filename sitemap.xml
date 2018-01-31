@@ -23,7 +23,7 @@
   </url>
   
   <url>
-    <loc>https://www.crazyjiang.cn/2016/09/05/markdemo/</loc>
+    <loc>https://www.crazyjiang.cn/archives/index.html</loc>
     
     <lastmod>2018-01-31T06:22:12.813Z</lastmod>
     
@@ -37,7 +37,7 @@
   </url>
   
   <url>
-    <loc>https://www.crazyjiang.cn/archives/index.html</loc>
+    <loc>https://www.crazyjiang.cn/2016/09/05/markdemo/</loc>
     
     <lastmod>2018-01-31T06:22:12.813Z</lastmod>
     
@@ -65,14 +65,14 @@
   </url>
   
   <url>
-    <loc>https://www.crazyjiang.cn/2016/09/05/android-nomedia/</loc>
+    <loc>https://www.crazyjiang.cn/2017/06/06/android-gradle-api/</loc>
     
     <lastmod>2018-01-31T06:22:12.810Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.crazyjiang.cn/2017/06/06/android-gradle-api/</loc>
+    <loc>https://www.crazyjiang.cn/2016/09/05/android-nomedia/</loc>
     
     <lastmod>2018-01-31T06:22:12.810Z</lastmod>
     
@@ -86,6 +86,13 @@
   </url>
   
   <url>
+    <loc>https://www.crazyjiang.cn/2017/09/06/android-as-freemarker/</loc>
+    
+    <lastmod>2018-01-31T06:22:12.809Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/</loc>
     
     <lastmod>2018-01-31T06:22:12.809Z</lastmod>
@@ -94,13 +101,6 @@
   
   <url>
     <loc>https://www.crazyjiang.cn/2017/08/06/android-best-practices/</loc>
-    
-    <lastmod>2018-01-31T06:22:12.809Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.crazyjiang.cn/2017/09/06/android-as-freemarker/</loc>
     
     <lastmod>2018-01-31T06:22:12.809Z</lastmod>
     
