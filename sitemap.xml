@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.crazyjiang.cn/2017/09/08/android-adb/</loc>
+    
+    <lastmod>2018-01-31T09:12:04.205Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.crazyjiang.cn/2017/09/08/android-meta-data/</loc>
     
     <lastmod>2018-01-31T06:54:02.964Z</lastmod>
@@ -23,7 +30,7 @@
   </url>
   
   <url>
-    <loc>http://www.crazyjiang.cn/archives/index.html</loc>
+    <loc>http://www.crazyjiang.cn/2016/09/05/markdemo/</loc>
     
     <lastmod>2018-01-31T06:22:12.813Z</lastmod>
     
@@ -37,7 +44,7 @@
   </url>
   
   <url>
-    <loc>http://www.crazyjiang.cn/2016/09/05/markdemo/</loc>
+    <loc>http://www.crazyjiang.cn/archives/index.html</loc>
     
     <lastmod>2018-01-31T06:22:12.813Z</lastmod>
     
@@ -86,6 +93,13 @@
   </url>
   
   <url>
+    <loc>http://www.crazyjiang.cn/2017/08/06/android-best-practices/</loc>
+    
+    <lastmod>2018-01-31T06:22:12.809Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.crazyjiang.cn/2017/09/06/android-as-freemarker/</loc>
     
     <lastmod>2018-01-31T06:22:12.809Z</lastmod>
@@ -100,21 +114,7 @@
   </url>
   
   <url>
-    <loc>http://www.crazyjiang.cn/2017/08/06/android-best-practices/</loc>
-    
-    <lastmod>2018-01-31T06:22:12.809Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.crazyjiang.cn/404.html</loc>
-    
-    <lastmod>2018-01-31T06:22:12.808Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.crazyjiang.cn/2017/09/08/android-adb/</loc>
     
     <lastmod>2018-01-31T06:22:12.808Z</lastmod>
     

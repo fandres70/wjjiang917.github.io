@@ -61,9 +61,9 @@
     <link href="http://www.crazyjiang.cn/2017/09/08/android-adb/"/>
     <id>http://www.crazyjiang.cn/2017/09/08/android-adb/</id>
     <published>2017-09-08T01:13:00.000Z</published>
-    <updated>2018-01-31T06:22:12.808Z</updated>
+    <updated>2018-01-31T09:12:04.205Z</updated>
     
-    <content type="html"><![CDATA[<p>ADB，即 Android Debug Bridge，Android调试桥，身为 Android 开发的我们，熟练使用 ADB 命令将会大大提升我们的开发效率， ADB 的命令有很多，今天就来总结下我在开发常用到的一些 ADB 命令。</p>
+    <content type="html"><![CDATA[<p>ADB，即 Android Debug Bridge，Android调试桥，身为 Android 开发的我们，熟练使用 ADB 命令将会大大提升我们的开发效率，ADB 的命令有很多，今天就来总结下我在开发常用到的一些 ADB 命令。</p>
 <h2 id="查看版本"><a href="#查看版本" class="headerlink" title="查看版本"></a>查看版本</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb version</span></div></pre></td></tr></table></figure>
 <h2 id="查看连接设备"><a href="#查看连接设备" class="headerlink" title="查看连接设备"></a>查看连接设备</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb devices</span></div></pre></td></tr></table></figure>
 <h2 id="安装apk"><a href="#安装apk" class="headerlink" title="安装apk"></a>安装apk</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb install &lt;apkfile&gt;</span></div><div class="line"><span class="meta">$</span><span class="bash"> adb install -r &lt;apkfile&gt;   --保留数据和缓存文件，重新安装apk</span></div><div class="line"><span class="meta">$</span><span class="bash"> adb install -s &lt;apkfile&gt;   --安装apk到sd卡</span></div></pre></td></tr></table></figure>
@@ -84,8 +84,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;ADB，即 Android Debug Bridge，Android调试桥，身为 Android 开发的我们，熟练使用 ADB 命令将会大大提升我们的开发效率， ADB 的命令有很多，今天就来总结下我在开发常用到的一些 ADB 命令。&lt;/p&gt;
-&lt;h2 id=&quot;查看版本&quot;&gt;&lt;
+      &lt;p&gt;ADB，即 Android Debug Bridge，Android调试桥，身为 Android 开发的我们，熟练使用 ADB 命令将会大大提升我们的开发效率，ADB 的命令有很多，今天就来总结下我在开发常用到的一些 ADB 命令。&lt;/p&gt;
+&lt;h2 id=&quot;查看版本&quot;&gt;&lt;a
     
     </summary>
     
@@ -127,33 +127,6 @@
   </entry>
   
   <entry>
-    <title>Live Templates - 快速生成代码</title>
-    <link href="http://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/"/>
-    <id>http://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/</id>
-    <published>2017-09-06T02:00:00.000Z</published>
-    <updated>2018-01-31T06:22:12.809Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="http://www.jianshu.com/p/baf524daa1e1" target="_blank" rel="external">http://www.jianshu.com/p/baf524daa1e1</a><br><a href="https://jingyan.baidu.com/article/20095761ccc749cb0721b43f.html" target="_blank" rel="external">https://jingyan.baidu.com/article/20095761ccc749cb0721b43f.html</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;http://www.jianshu.com/p/baf524daa1e1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/baf524daa1e1&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http
-    
-    </summary>
-    
-      <category term="TODO" scheme="http://www.crazyjiang.cn/categories/TODO/"/>
-    
-    
-      <category term="Android" scheme="http://www.crazyjiang.cn/tags/Android/"/>
-    
-      <category term="Android Studio" scheme="http://www.crazyjiang.cn/tags/Android-Studio/"/>
-    
-      <category term="Live Templates" scheme="http://www.crazyjiang.cn/tags/Live-Templates/"/>
-    
-  </entry>
-  
-  <entry>
     <title>FreeMarker - 快速生成Android Studio工程文件</title>
     <link href="http://www.crazyjiang.cn/2017/09/06/android-as-freemarker/"/>
     <id>http://www.crazyjiang.cn/2017/09/06/android-as-freemarker/</id>
@@ -175,7 +148,34 @@
     
       <category term="Android" scheme="http://www.crazyjiang.cn/tags/Android/"/>
     
+      <category term="Android Studio" scheme="http://www.crazyjiang.cn/tags/Android-Studio/"/>
+    
       <category term="FreeMarker" scheme="http://www.crazyjiang.cn/tags/FreeMarker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Live Templates - 快速生成代码</title>
+    <link href="http://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/"/>
+    <id>http://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/</id>
+    <published>2017-09-06T02:00:00.000Z</published>
+    <updated>2018-01-31T06:22:12.809Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://www.jianshu.com/p/baf524daa1e1" target="_blank" rel="external">http://www.jianshu.com/p/baf524daa1e1</a><br><a href="https://jingyan.baidu.com/article/20095761ccc749cb0721b43f.html" target="_blank" rel="external">https://jingyan.baidu.com/article/20095761ccc749cb0721b43f.html</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://www.jianshu.com/p/baf524daa1e1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/p/baf524daa1e1&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http
+    
+    </summary>
+    
+      <category term="TODO" scheme="http://www.crazyjiang.cn/categories/TODO/"/>
+    
+    
+      <category term="Android" scheme="http://www.crazyjiang.cn/tags/Android/"/>
+    
+      <category term="Live Templates" scheme="http://www.crazyjiang.cn/tags/Live-Templates/"/>
     
       <category term="Android Studio" scheme="http://www.crazyjiang.cn/tags/Android-Studio/"/>
     

@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>http://www.crazyjiang.cn/2017/09/08/android-adb/</loc>
+    <lastmod>2018-01-31T09:12:04.205Z</lastmod>
+    <data>
+        <display>
+        <title>adb操作命令详解及大全</title>
+        <pubTime>2017-09-08T01:13:00.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>adb</tag>
+         
+        <tag>命令</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android - 基础" url="http://www.crazyjiang.cn/categories/Android-%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.crazyjiang.cn/2017/09/08/android-meta-data/</loc>
     <lastmod>2018-01-31T06:54:02.964Z</lastmod>
     <data>
@@ -27,8 +51,6 @@
     
     
     
-    
-    
   <url>
     <loc>http://www.crazyjiang.cn/2016/09/05/markdemo/</loc>
     <lastmod>2018-01-31T06:22:12.813Z</lastmod>
@@ -48,6 +70,8 @@
     </data>
     </url>
 
+    
+    
     
   <url>
     <loc>http://www.crazyjiang.cn/2017/09/05/lantern/</loc>
@@ -180,6 +204,26 @@
 
     
   <url>
+    <loc>http://www.crazyjiang.cn/2017/08/06/android-best-practices/</loc>
+    <lastmod>2018-01-31T06:22:12.809Z</lastmod>
+    <data>
+        <display>
+        <title>关于学习Android的31条小建议</title>
+        <pubTime>2017-08-06T09:20:00.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android - Best Practices" url="http://www.crazyjiang.cn/categories/Android-Best-Practices/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.crazyjiang.cn/2017/09/06/android-as-freemarker/</loc>
     <lastmod>2018-01-31T06:22:12.809Z</lastmod>
     <data>
@@ -189,9 +233,9 @@
         
         <tag>Android</tag>
          
-        <tag>FreeMarker</tag>
-         
         <tag>Android Studio</tag>
+         
+        <tag>FreeMarker</tag>
          
          
            
@@ -213,9 +257,9 @@
         
         <tag>Android</tag>
          
-        <tag>Android Studio</tag>
-         
         <tag>Live Templates</tag>
+         
+        <tag>Android Studio</tag>
          
          
            
@@ -227,50 +271,6 @@
     </url>
 
     
-  <url>
-    <loc>http://www.crazyjiang.cn/2017/08/06/android-best-practices/</loc>
-    <lastmod>2018-01-31T06:22:12.809Z</lastmod>
-    <data>
-        <display>
-        <title>关于学习Android的31条小建议</title>
-        <pubTime>2017-08-06T09:20:00.000Z</pubTime>
-        
-        <tag>Android</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android - Best Practices" url="http://www.crazyjiang.cn/categories/Android-Best-Practices/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-  <url>
-    <loc>http://www.crazyjiang.cn/2017/09/08/android-adb/</loc>
-    <lastmod>2018-01-31T06:22:12.808Z</lastmod>
-    <data>
-        <display>
-        <title>adb操作命令详解及大全</title>
-        <pubTime>2017-09-08T01:13:00.000Z</pubTime>
-        
-        <tag>Android</tag>
-         
-        <tag>adb</tag>
-         
-        <tag>命令</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android - 基础" url="http://www.crazyjiang.cn/categories/Android-%E5%9F%BA%E7%A1%80/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>http://www.crazyjiang.cn/2017/08/05/hexo-oschina/</loc>
