@@ -28,6 +28,7 @@
     
     
     
+    
   <url>
     <loc>http://www.crazyjiang.cn/2016/09/05/markdemo/</loc>
     <lastmod>2018-01-31T06:22:12.813Z</lastmod>
@@ -47,7 +48,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://www.crazyjiang.cn/2017/09/05/lantern/</loc>
@@ -114,28 +114,6 @@
 
     
   <url>
-    <loc>http://www.crazyjiang.cn/2016/09/05/android-nomedia/</loc>
-    <lastmod>2018-01-31T06:22:12.810Z</lastmod>
-    <data>
-        <display>
-        <title>Android避免资源被系统扫描并显示 - .nomedia</title>
-        <pubTime>2016-09-05T02:00:00.000Z</pubTime>
-        
-        <tag>Android</tag>
-         
-        <tag>nomedia</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android - 基础" url="http://www.crazyjiang.cn/categories/Android-%E5%9F%BA%E7%A1%80/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.crazyjiang.cn/2017/06/06/android-gradle-api/</loc>
     <lastmod>2018-01-31T06:22:12.810Z</lastmod>
     <data>
@@ -151,6 +129,28 @@
            
              
               <breadCrumb title="Android - Gradle" url="http://www.crazyjiang.cn/categories/Android-Gradle/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.crazyjiang.cn/2016/09/05/android-nomedia/</loc>
+    <lastmod>2018-01-31T06:22:12.810Z</lastmod>
+    <data>
+        <display>
+        <title>Android避免资源被系统扫描并显示 - .nomedia</title>
+        <pubTime>2016-09-05T02:00:00.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>nomedia</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android - 基础" url="http://www.crazyjiang.cn/categories/Android-%E5%9F%BA%E7%A1%80/"/>
           
         </display>
     </data>
@@ -180,30 +180,6 @@
 
     
   <url>
-    <loc>http://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/</loc>
-    <lastmod>2018-01-31T06:22:12.809Z</lastmod>
-    <data>
-        <display>
-        <title>Live Templates - 快速生成代码</title>
-        <pubTime>2017-09-06T02:00:00.000Z</pubTime>
-        
-        <tag>Android</tag>
-         
-        <tag>Android Studio</tag>
-         
-        <tag>Live Templates</tag>
-         
-         
-           
-             
-              <breadCrumb title="TODO" url="http://www.crazyjiang.cn/categories/TODO/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.crazyjiang.cn/2017/09/06/android-as-freemarker/</loc>
     <lastmod>2018-01-31T06:22:12.809Z</lastmod>
     <data>
@@ -216,6 +192,30 @@
         <tag>FreeMarker</tag>
          
         <tag>Android Studio</tag>
+         
+         
+           
+             
+              <breadCrumb title="TODO" url="http://www.crazyjiang.cn/categories/TODO/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/</loc>
+    <lastmod>2018-01-31T06:22:12.809Z</lastmod>
+    <data>
+        <display>
+        <title>Live Templates - 快速生成代码</title>
+        <pubTime>2017-09-06T02:00:00.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>Android Studio</tag>
+         
+        <tag>Live Templates</tag>
          
          
            
