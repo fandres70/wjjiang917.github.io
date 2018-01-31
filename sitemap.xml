@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.crazyjiang.cn/baidu_verify_AYPfuQbrSr.html</loc>
+    
+    <lastmod>2018-01-31T06:38:38.361Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.crazyjiang.cn/tags/index.html</loc>
     
     <lastmod>2018-01-31T06:22:12.820Z</lastmod>
@@ -16,9 +23,9 @@
   </url>
   
   <url>
-    <loc>https://www.crazyjiang.cn/baidu_verify_AYPfuQbrSr.html</loc>
+    <loc>https://www.crazyjiang.cn/about/index.html</loc>
     
-    <lastmod>2018-01-31T06:22:12.814Z</lastmod>
+    <lastmod>2018-01-31T06:22:12.813Z</lastmod>
     
   </url>
   
@@ -37,23 +44,9 @@
   </url>
   
   <url>
-    <loc>https://www.crazyjiang.cn/about/index.html</loc>
-    
-    <lastmod>2018-01-31T06:22:12.813Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.crazyjiang.cn/2017/09/05/lantern/</loc>
     
     <lastmod>2018-01-31T06:22:12.812Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.crazyjiang.cn/2016/09/25/jianshu/</loc>
-    
-    <lastmod>2018-01-31T06:22:12.811Z</lastmod>
     
   </url>
   
@@ -65,21 +58,14 @@
   </url>
   
   <url>
-    <loc>https://www.crazyjiang.cn/2017/06/06/android-gradle-api/</loc>
+    <loc>https://www.crazyjiang.cn/2016/09/25/jianshu/</loc>
     
-    <lastmod>2018-01-31T06:22:12.810Z</lastmod>
+    <lastmod>2018-01-31T06:22:12.811Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.crazyjiang.cn/2016/09/05/android-nomedia/</loc>
-    
-    <lastmod>2018-01-31T06:22:12.810Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.crazyjiang.cn/2016/09/25/android-context/</loc>
     
     <lastmod>2018-01-31T06:22:12.810Z</lastmod>
     
@@ -93,14 +79,28 @@
   </url>
   
   <url>
-    <loc>https://www.crazyjiang.cn/2017/08/06/android-best-practices/</loc>
+    <loc>https://www.crazyjiang.cn/2017/06/06/android-gradle-api/</loc>
+    
+    <lastmod>2018-01-31T06:22:12.810Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.crazyjiang.cn/2016/09/25/android-context/</loc>
+    
+    <lastmod>2018-01-31T06:22:12.810Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/</loc>
     
     <lastmod>2018-01-31T06:22:12.809Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/</loc>
+    <loc>https://www.crazyjiang.cn/2017/08/06/android-best-practices/</loc>
     
     <lastmod>2018-01-31T06:22:12.809Z</lastmod>
     
