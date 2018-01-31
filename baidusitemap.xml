@@ -5,8 +5,6 @@
     
     
     
-    
-    
   <url>
     <loc>https://www.crazyjiang.cn/2016/09/05/markdemo/</loc>
     <lastmod>2018-01-31T06:22:12.813Z</lastmod>
@@ -26,6 +24,8 @@
     </data>
     </url>
 
+    
+    
     
   <url>
     <loc>https://www.crazyjiang.cn/2017/09/05/lantern/</loc>
@@ -92,16 +92,38 @@
 
     
   <url>
-    <loc>https://www.crazyjiang.cn/2016/09/25/android-context/</loc>
+    <loc>https://www.crazyjiang.cn/2017/06/06/android-gradle-api/</loc>
     <lastmod>2018-01-31T06:22:12.810Z</lastmod>
     <data>
         <display>
-        <title>Android Context笔记</title>
-        <pubTime>2016-09-25T02:00:00.000Z</pubTime>
+        <title>android-apt、annotationProcessor、provided、compile和Gradle 3.X的指令api、implementation</title>
+        <pubTime>2017-06-06T02:00:00.000Z</pubTime>
         
         <tag>Android</tag>
          
-        <tag>Context</tag>
+        <tag>Gradle</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android - Gradle" url="https://www.crazyjiang.cn/categories/Android-Gradle/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.crazyjiang.cn/2017/09/08/android-meta-data/</loc>
+    <lastmod>2018-01-31T06:22:12.810Z</lastmod>
+    <data>
+        <display>
+        <title>Android获取Manifest中<meta-data>元素的值</title>
+        <pubTime>2017-09-08T09:24:00.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>meta-data</tag>
          
          
            
@@ -136,38 +158,16 @@
 
     
   <url>
-    <loc>https://www.crazyjiang.cn/2017/06/06/android-gradle-api/</loc>
+    <loc>https://www.crazyjiang.cn/2016/09/25/android-context/</loc>
     <lastmod>2018-01-31T06:22:12.810Z</lastmod>
     <data>
         <display>
-        <title>android-apt、annotationProcessor、provided、compile和Gradle 3.X的指令api、implementation</title>
-        <pubTime>2017-06-06T02:00:00.000Z</pubTime>
+        <title>Android Context笔记</title>
+        <pubTime>2016-09-25T02:00:00.000Z</pubTime>
         
         <tag>Android</tag>
          
-        <tag>Gradle</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android - Gradle" url="https://www.crazyjiang.cn/categories/Android-Gradle/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.crazyjiang.cn/2017/09/08/android-meta-data/</loc>
-    <lastmod>2018-01-31T06:22:12.810Z</lastmod>
-    <data>
-        <display>
-        <title>Android获取Manifest中<meta-data>元素的值</title>
-        <pubTime>2017-09-08T09:24:00.000Z</pubTime>
-        
-        <tag>Android</tag>
-         
-        <tag>meta-data</tag>
+        <tag>Context</tag>
          
          
            
