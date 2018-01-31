@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://www.crazyjiang.cn/"/>
+  <link href="http://www.crazyjiang.cn/"/>
   <updated>2018-01-31T06:54:02.964Z</updated>
-  <id>https://www.crazyjiang.cn/</id>
+  <id>http://www.crazyjiang.cn/</id>
   
   <author>
     <name>Crazy江</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Android获取Manifest中meta-data元素的值</title>
-    <link href="https://www.crazyjiang.cn/2017/09/08/android-meta-data/"/>
-    <id>https://www.crazyjiang.cn/2017/09/08/android-meta-data/</id>
+    <link href="http://www.crazyjiang.cn/2017/09/08/android-meta-data/"/>
+    <id>http://www.crazyjiang.cn/2017/09/08/android-meta-data/</id>
     <published>2017-09-08T09:24:00.000Z</published>
     <updated>2018-01-31T06:54:02.964Z</updated>
     
@@ -47,19 +47,19 @@
     
     </summary>
     
-      <category term="Android - 基础" scheme="https://www.crazyjiang.cn/categories/Android-%E5%9F%BA%E7%A1%80/"/>
+      <category term="Android - 基础" scheme="http://www.crazyjiang.cn/categories/Android-%E5%9F%BA%E7%A1%80/"/>
     
     
-      <category term="Android" scheme="https://www.crazyjiang.cn/tags/Android/"/>
+      <category term="Android" scheme="http://www.crazyjiang.cn/tags/Android/"/>
     
-      <category term="meta-data" scheme="https://www.crazyjiang.cn/tags/meta-data/"/>
+      <category term="meta-data" scheme="http://www.crazyjiang.cn/tags/meta-data/"/>
     
   </entry>
   
   <entry>
     <title>adb操作命令详解及大全</title>
-    <link href="https://www.crazyjiang.cn/2017/09/08/android-adb/"/>
-    <id>https://www.crazyjiang.cn/2017/09/08/android-adb/</id>
+    <link href="http://www.crazyjiang.cn/2017/09/08/android-adb/"/>
+    <id>http://www.crazyjiang.cn/2017/09/08/android-adb/</id>
     <published>2017-09-08T01:13:00.000Z</published>
     <updated>2018-01-31T06:22:12.808Z</updated>
     
@@ -89,21 +89,21 @@
     
     </summary>
     
-      <category term="Android - 基础" scheme="https://www.crazyjiang.cn/categories/Android-%E5%9F%BA%E7%A1%80/"/>
+      <category term="Android - 基础" scheme="http://www.crazyjiang.cn/categories/Android-%E5%9F%BA%E7%A1%80/"/>
     
     
-      <category term="Android" scheme="https://www.crazyjiang.cn/tags/Android/"/>
+      <category term="Android" scheme="http://www.crazyjiang.cn/tags/Android/"/>
     
-      <category term="adb" scheme="https://www.crazyjiang.cn/tags/adb/"/>
+      <category term="adb" scheme="http://www.crazyjiang.cn/tags/adb/"/>
     
-      <category term="命令" scheme="https://www.crazyjiang.cn/tags/%E5%91%BD%E4%BB%A4/"/>
+      <category term="命令" scheme="http://www.crazyjiang.cn/tags/%E5%91%BD%E4%BB%A4/"/>
     
   </entry>
   
   <entry>
     <title>Git命令</title>
-    <link href="https://www.crazyjiang.cn/2017/09/07/git/"/>
-    <id>https://www.crazyjiang.cn/2017/09/07/git/</id>
+    <link href="http://www.crazyjiang.cn/2017/09/07/git/"/>
+    <id>http://www.crazyjiang.cn/2017/09/07/git/</id>
     <published>2017-09-07T05:41:00.000Z</published>
     <updated>2018-01-31T06:22:12.811Z</updated>
     
@@ -117,19 +117,19 @@
     
     </summary>
     
-      <category term="笔记" scheme="https://www.crazyjiang.cn/categories/%E7%AC%94%E8%AE%B0/"/>
+      <category term="笔记" scheme="http://www.crazyjiang.cn/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="命令" scheme="https://www.crazyjiang.cn/tags/%E5%91%BD%E4%BB%A4/"/>
+      <category term="命令" scheme="http://www.crazyjiang.cn/tags/%E5%91%BD%E4%BB%A4/"/>
     
-      <category term="Git" scheme="https://www.crazyjiang.cn/tags/Git/"/>
+      <category term="Git" scheme="http://www.crazyjiang.cn/tags/Git/"/>
     
   </entry>
   
   <entry>
     <title>Live Templates - 快速生成代码</title>
-    <link href="https://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/"/>
-    <id>https://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/</id>
+    <link href="http://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/"/>
+    <id>http://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/</id>
     <published>2017-09-06T02:00:00.000Z</published>
     <updated>2018-01-31T06:22:12.809Z</updated>
     
@@ -142,21 +142,21 @@
     
     </summary>
     
-      <category term="TODO" scheme="https://www.crazyjiang.cn/categories/TODO/"/>
+      <category term="TODO" scheme="http://www.crazyjiang.cn/categories/TODO/"/>
     
     
-      <category term="Android" scheme="https://www.crazyjiang.cn/tags/Android/"/>
+      <category term="Android" scheme="http://www.crazyjiang.cn/tags/Android/"/>
     
-      <category term="Android Studio" scheme="https://www.crazyjiang.cn/tags/Android-Studio/"/>
+      <category term="Live Templates" scheme="http://www.crazyjiang.cn/tags/Live-Templates/"/>
     
-      <category term="Live Templates" scheme="https://www.crazyjiang.cn/tags/Live-Templates/"/>
+      <category term="Android Studio" scheme="http://www.crazyjiang.cn/tags/Android-Studio/"/>
     
   </entry>
   
   <entry>
     <title>FreeMarker - 快速生成Android Studio工程文件</title>
-    <link href="https://www.crazyjiang.cn/2017/09/06/android-as-freemarker/"/>
-    <id>https://www.crazyjiang.cn/2017/09/06/android-as-freemarker/</id>
+    <link href="http://www.crazyjiang.cn/2017/09/06/android-as-freemarker/"/>
+    <id>http://www.crazyjiang.cn/2017/09/06/android-as-freemarker/</id>
     <published>2017-09-06T02:00:00.000Z</published>
     <updated>2018-01-31T06:22:12.809Z</updated>
     
@@ -170,21 +170,21 @@
     
     </summary>
     
-      <category term="TODO" scheme="https://www.crazyjiang.cn/categories/TODO/"/>
+      <category term="TODO" scheme="http://www.crazyjiang.cn/categories/TODO/"/>
     
     
-      <category term="Android" scheme="https://www.crazyjiang.cn/tags/Android/"/>
+      <category term="Android" scheme="http://www.crazyjiang.cn/tags/Android/"/>
     
-      <category term="FreeMarker" scheme="https://www.crazyjiang.cn/tags/FreeMarker/"/>
+      <category term="Android Studio" scheme="http://www.crazyjiang.cn/tags/Android-Studio/"/>
     
-      <category term="Android Studio" scheme="https://www.crazyjiang.cn/tags/Android-Studio/"/>
+      <category term="FreeMarker" scheme="http://www.crazyjiang.cn/tags/FreeMarker/"/>
     
   </entry>
   
   <entry>
     <title>免费VPN - 蓝灯lantern  邀请码YFPJ9TJ</title>
-    <link href="https://www.crazyjiang.cn/2017/09/05/lantern/"/>
-    <id>https://www.crazyjiang.cn/2017/09/05/lantern/</id>
+    <link href="http://www.crazyjiang.cn/2017/09/05/lantern/"/>
+    <id>http://www.crazyjiang.cn/2017/09/05/lantern/</id>
     <published>2017-09-04T16:00:00.000Z</published>
     <updated>2018-01-31T06:22:12.812Z</updated>
     
@@ -201,21 +201,21 @@
     
     </summary>
     
-      <category term="随笔" scheme="https://www.crazyjiang.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://www.crazyjiang.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="VPN" scheme="https://www.crazyjiang.cn/tags/VPN/"/>
+      <category term="VPN" scheme="http://www.crazyjiang.cn/tags/VPN/"/>
     
-      <category term="蓝灯" scheme="https://www.crazyjiang.cn/tags/%E8%93%9D%E7%81%AF/"/>
+      <category term="蓝灯" scheme="http://www.crazyjiang.cn/tags/%E8%93%9D%E7%81%AF/"/>
     
-      <category term="lantern" scheme="https://www.crazyjiang.cn/tags/lantern/"/>
+      <category term="lantern" scheme="http://www.crazyjiang.cn/tags/lantern/"/>
     
   </entry>
   
   <entry>
     <title>关于学习Android的31条小建议</title>
-    <link href="https://www.crazyjiang.cn/2017/08/06/android-best-practices/"/>
-    <id>https://www.crazyjiang.cn/2017/08/06/android-best-practices/</id>
+    <link href="http://www.crazyjiang.cn/2017/08/06/android-best-practices/"/>
+    <id>http://www.crazyjiang.cn/2017/08/06/android-best-practices/</id>
     <published>2017-08-06T09:20:00.000Z</published>
     <updated>2018-01-31T06:22:12.809Z</updated>
     
@@ -262,17 +262,17 @@
     
     </summary>
     
-      <category term="Android - Best Practices" scheme="https://www.crazyjiang.cn/categories/Android-Best-Practices/"/>
+      <category term="Android - Best Practices" scheme="http://www.crazyjiang.cn/categories/Android-Best-Practices/"/>
     
     
-      <category term="Android" scheme="https://www.crazyjiang.cn/tags/Android/"/>
+      <category term="Android" scheme="http://www.crazyjiang.cn/tags/Android/"/>
     
   </entry>
   
   <entry>
     <title>Hexo+oschina，免费拥有自己的博客</title>
-    <link href="https://www.crazyjiang.cn/2017/08/05/hexo-oschina/"/>
-    <id>https://www.crazyjiang.cn/2017/08/05/hexo-oschina/</id>
+    <link href="http://www.crazyjiang.cn/2017/08/05/hexo-oschina/"/>
+    <id>http://www.crazyjiang.cn/2017/08/05/hexo-oschina/</id>
     <published>2017-08-05T04:00:00.000Z</published>
     <updated>2017-09-06T06:46:00.000Z</updated>
     
@@ -310,21 +310,21 @@
     
     </summary>
     
-      <category term="随笔" scheme="https://www.crazyjiang.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://www.crazyjiang.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="Hexo" scheme="https://www.crazyjiang.cn/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://www.crazyjiang.cn/tags/Hexo/"/>
     
-      <category term="oschina" scheme="https://www.crazyjiang.cn/tags/oschina/"/>
+      <category term="oschina" scheme="http://www.crazyjiang.cn/tags/oschina/"/>
     
-      <category term="gitee" scheme="https://www.crazyjiang.cn/tags/gitee/"/>
+      <category term="gitee" scheme="http://www.crazyjiang.cn/tags/gitee/"/>
     
   </entry>
   
   <entry>
     <title>android-apt、annotationProcessor、provided、compile和Gradle 3.X的指令api、implementation</title>
-    <link href="https://www.crazyjiang.cn/2017/06/06/android-gradle-api/"/>
-    <id>https://www.crazyjiang.cn/2017/06/06/android-gradle-api/</id>
+    <link href="http://www.crazyjiang.cn/2017/06/06/android-gradle-api/"/>
+    <id>http://www.crazyjiang.cn/2017/06/06/android-gradle-api/</id>
     <published>2017-06-06T02:00:00.000Z</published>
     <updated>2018-01-31T06:22:12.810Z</updated>
     
@@ -352,19 +352,19 @@
     
     </summary>
     
-      <category term="Android - Gradle" scheme="https://www.crazyjiang.cn/categories/Android-Gradle/"/>
+      <category term="Android - Gradle" scheme="http://www.crazyjiang.cn/categories/Android-Gradle/"/>
     
     
-      <category term="Android" scheme="https://www.crazyjiang.cn/tags/Android/"/>
+      <category term="Android" scheme="http://www.crazyjiang.cn/tags/Android/"/>
     
-      <category term="Gradle" scheme="https://www.crazyjiang.cn/tags/Gradle/"/>
+      <category term="Gradle" scheme="http://www.crazyjiang.cn/tags/Gradle/"/>
     
   </entry>
   
   <entry>
     <title>Android Context笔记</title>
-    <link href="https://www.crazyjiang.cn/2016/09/25/android-context/"/>
-    <id>https://www.crazyjiang.cn/2016/09/25/android-context/</id>
+    <link href="http://www.crazyjiang.cn/2016/09/25/android-context/"/>
+    <id>http://www.crazyjiang.cn/2016/09/25/android-context/</id>
     <published>2016-09-25T02:00:00.000Z</published>
     <updated>2018-01-31T06:22:12.810Z</updated>
     
@@ -388,19 +388,19 @@
     
     </summary>
     
-      <category term="Android - 基础" scheme="https://www.crazyjiang.cn/categories/Android-%E5%9F%BA%E7%A1%80/"/>
+      <category term="Android - 基础" scheme="http://www.crazyjiang.cn/categories/Android-%E5%9F%BA%E7%A1%80/"/>
     
     
-      <category term="Android" scheme="https://www.crazyjiang.cn/tags/Android/"/>
+      <category term="Android" scheme="http://www.crazyjiang.cn/tags/Android/"/>
     
-      <category term="Context" scheme="https://www.crazyjiang.cn/tags/Context/"/>
+      <category term="Context" scheme="http://www.crazyjiang.cn/tags/Context/"/>
     
   </entry>
   
   <entry>
     <title>简书收藏</title>
-    <link href="https://www.crazyjiang.cn/2016/09/25/jianshu/"/>
-    <id>https://www.crazyjiang.cn/2016/09/25/jianshu/</id>
+    <link href="http://www.crazyjiang.cn/2016/09/25/jianshu/"/>
+    <id>http://www.crazyjiang.cn/2016/09/25/jianshu/</id>
     <published>2016-09-25T02:00:00.000Z</published>
     <updated>2018-01-31T06:22:12.811Z</updated>
     
@@ -422,15 +422,15 @@
     
     </summary>
     
-      <category term="TODO" scheme="https://www.crazyjiang.cn/categories/TODO/"/>
+      <category term="TODO" scheme="http://www.crazyjiang.cn/categories/TODO/"/>
     
     
   </entry>
   
   <entry>
     <title>Android避免资源被系统扫描并显示 - .nomedia</title>
-    <link href="https://www.crazyjiang.cn/2016/09/05/android-nomedia/"/>
-    <id>https://www.crazyjiang.cn/2016/09/05/android-nomedia/</id>
+    <link href="http://www.crazyjiang.cn/2016/09/05/android-nomedia/"/>
+    <id>http://www.crazyjiang.cn/2016/09/05/android-nomedia/</id>
     <published>2016-09-05T02:00:00.000Z</published>
     <updated>2018-01-31T06:22:12.810Z</updated>
     
@@ -452,19 +452,19 @@
     
     </summary>
     
-      <category term="Android - 基础" scheme="https://www.crazyjiang.cn/categories/Android-%E5%9F%BA%E7%A1%80/"/>
+      <category term="Android - 基础" scheme="http://www.crazyjiang.cn/categories/Android-%E5%9F%BA%E7%A1%80/"/>
     
     
-      <category term="Android" scheme="https://www.crazyjiang.cn/tags/Android/"/>
+      <category term="Android" scheme="http://www.crazyjiang.cn/tags/Android/"/>
     
-      <category term="nomedia" scheme="https://www.crazyjiang.cn/tags/nomedia/"/>
+      <category term="nomedia" scheme="http://www.crazyjiang.cn/tags/nomedia/"/>
     
   </entry>
   
   <entry>
     <title>Markdown demo</title>
-    <link href="https://www.crazyjiang.cn/2016/09/05/markdemo/"/>
-    <id>https://www.crazyjiang.cn/2016/09/05/markdemo/</id>
+    <link href="http://www.crazyjiang.cn/2016/09/05/markdemo/"/>
+    <id>http://www.crazyjiang.cn/2016/09/05/markdemo/</id>
     <published>2016-09-04T16:00:00.000Z</published>
     <updated>2018-01-31T06:22:12.813Z</updated>
     
@@ -550,10 +550,10 @@
     
     </summary>
     
-      <category term="随笔" scheme="https://www.crazyjiang.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://www.crazyjiang.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="Markdown" scheme="https://www.crazyjiang.cn/tags/Markdown/"/>
+      <category term="Markdown" scheme="http://www.crazyjiang.cn/tags/Markdown/"/>
     
   </entry>
   
