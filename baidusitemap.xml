@@ -27,6 +27,8 @@
     
     
     
+    
+    
   <url>
     <loc>http://www.crazyjiang.cn/2016/09/05/markdemo/</loc>
     <lastmod>2018-01-31T06:22:12.813Z</lastmod>
@@ -46,8 +48,6 @@
     </data>
     </url>
 
-    
-    
     
   <url>
     <loc>http://www.crazyjiang.cn/2017/09/05/lantern/</loc>
@@ -74,28 +74,6 @@
 
     
   <url>
-    <loc>http://www.crazyjiang.cn/2017/09/07/git/</loc>
-    <lastmod>2018-01-31T06:22:12.811Z</lastmod>
-    <data>
-        <display>
-        <title>Git命令</title>
-        <pubTime>2017-09-07T05:41:00.000Z</pubTime>
-        
-        <tag>命令</tag>
-         
-        <tag>Git</tag>
-         
-         
-           
-             
-              <breadCrumb title="笔记" url="http://www.crazyjiang.cn/categories/%E7%AC%94%E8%AE%B0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.crazyjiang.cn/2016/09/25/jianshu/</loc>
     <lastmod>2018-01-31T06:22:12.811Z</lastmod>
     <data>
@@ -114,21 +92,21 @@
 
     
   <url>
-    <loc>http://www.crazyjiang.cn/2017/06/06/android-gradle-api/</loc>
-    <lastmod>2018-01-31T06:22:12.810Z</lastmod>
+    <loc>http://www.crazyjiang.cn/2017/09/07/git/</loc>
+    <lastmod>2018-01-31T06:22:12.811Z</lastmod>
     <data>
         <display>
-        <title>android-apt、annotationProcessor、provided、compile和Gradle 3.X的指令api、implementation</title>
-        <pubTime>2017-06-06T02:00:00.000Z</pubTime>
+        <title>Git命令</title>
+        <pubTime>2017-09-07T05:41:00.000Z</pubTime>
         
-        <tag>Android</tag>
+        <tag>命令</tag>
          
-        <tag>Gradle</tag>
+        <tag>Git</tag>
          
          
            
              
-              <breadCrumb title="Android - Gradle" url="http://www.crazyjiang.cn/categories/Android-Gradle/"/>
+              <breadCrumb title="笔记" url="http://www.crazyjiang.cn/categories/%E7%AC%94%E8%AE%B0/"/>
           
         </display>
     </data>
@@ -180,19 +158,21 @@
 
     
   <url>
-    <loc>http://www.crazyjiang.cn/2017/08/06/android-best-practices/</loc>
-    <lastmod>2018-01-31T06:22:12.809Z</lastmod>
+    <loc>http://www.crazyjiang.cn/2017/06/06/android-gradle-api/</loc>
+    <lastmod>2018-01-31T06:22:12.810Z</lastmod>
     <data>
         <display>
-        <title>关于学习Android的31条小建议</title>
-        <pubTime>2017-08-06T09:20:00.000Z</pubTime>
+        <title>android-apt、annotationProcessor、provided、compile和Gradle 3.X的指令api、implementation</title>
+        <pubTime>2017-06-06T02:00:00.000Z</pubTime>
         
         <tag>Android</tag>
+         
+        <tag>Gradle</tag>
          
          
            
              
-              <breadCrumb title="Android - Best Practices" url="http://www.crazyjiang.cn/categories/Android-Best-Practices/"/>
+              <breadCrumb title="Android - Gradle" url="http://www.crazyjiang.cn/categories/Android-Gradle/"/>
           
         </display>
     </data>
@@ -207,9 +187,9 @@
         <title>FreeMarker - 快速生成Android Studio工程文件</title>
         <pubTime>2017-09-06T02:00:00.000Z</pubTime>
         
-        <tag>FreeMarker</tag>
-         
         <tag>Android</tag>
+         
+        <tag>FreeMarker</tag>
          
         <tag>Android Studio</tag>
          
@@ -217,6 +197,26 @@
            
              
               <breadCrumb title="TODO" url="http://www.crazyjiang.cn/categories/TODO/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.crazyjiang.cn/2017/08/06/android-best-practices/</loc>
+    <lastmod>2018-01-31T06:22:12.809Z</lastmod>
+    <data>
+        <display>
+        <title>关于学习Android的31条小建议</title>
+        <pubTime>2017-08-06T09:20:00.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android - Best Practices" url="http://www.crazyjiang.cn/categories/Android-Best-Practices/"/>
           
         </display>
     </data>
