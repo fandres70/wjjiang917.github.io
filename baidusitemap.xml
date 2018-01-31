@@ -3,8 +3,31 @@
 
 
     
+    
   <url>
-    <loc>http://wjjiang.oschina.io/2017/09/07/git/</loc>
+    <loc>https://www.crazyjiang.cn/2017/09/08/android-meta-data/</loc>
+    <lastmod>2017-09-08T09:32:57.000Z</lastmod>
+    <data>
+        <display>
+        <title>Android获取Manifest中<meta-data>元素的值</title>
+        <pubTime>2017-09-08T09:24:00.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+        <tag>meta-data</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android - 基础" url="https://www.crazyjiang.cn/categories/Android-%E5%9F%BA%E7%A1%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.crazyjiang.cn/2017/09/07/git/</loc>
     <lastmod>2017-09-08T02:18:48.000Z</lastmod>
     <data>
         <display>
@@ -18,7 +41,7 @@
          
            
              
-              <breadCrumb title="笔记" url="http://wjjiang.oschina.io/categories/%E7%AC%94%E8%AE%B0/"/>
+              <breadCrumb title="笔记" url="https://www.crazyjiang.cn/categories/%E7%AC%94%E8%AE%B0/"/>
           
         </display>
     </data>
@@ -26,7 +49,7 @@
 
     
   <url>
-    <loc>http://wjjiang.oschina.io/2017/09/08/android-adb/</loc>
+    <loc>https://www.crazyjiang.cn/2017/09/08/android-adb/</loc>
     <lastmod>2017-09-08T02:12:49.000Z</lastmod>
     <data>
         <display>
@@ -42,7 +65,7 @@
          
            
              
-              <breadCrumb title="Android - 基础" url="http://wjjiang.oschina.io/categories/Android-%E5%9F%BA%E7%A1%80/"/>
+              <breadCrumb title="Android - 基础" url="https://www.crazyjiang.cn/categories/Android-%E5%9F%BA%E7%A1%80/"/>
           
         </display>
     </data>
@@ -50,23 +73,23 @@
 
     
   <url>
-    <loc>http://wjjiang.oschina.io/2017/09/06/android-as-freemarker/</loc>
+    <loc>https://www.crazyjiang.cn/2017/09/06/android-as-freemarker/</loc>
     <lastmod>2017-09-06T07:56:51.000Z</lastmod>
     <data>
         <display>
         <title>FreeMarker - 快速生成Android Studio工程文件</title>
         <pubTime>2017-09-06T02:00:00.000Z</pubTime>
         
-        <tag>Android</tag>
-         
         <tag>FreeMarker</tag>
+         
+        <tag>Android</tag>
          
         <tag>Android Studio</tag>
          
          
            
              
-              <breadCrumb title="TODO" url="http://wjjiang.oschina.io/categories/TODO/"/>
+              <breadCrumb title="TODO" url="https://www.crazyjiang.cn/categories/TODO/"/>
           
         </display>
     </data>
@@ -74,7 +97,7 @@
 
     
   <url>
-    <loc>http://wjjiang.oschina.io/2017/09/06/android-as-livetemplate/</loc>
+    <loc>https://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/</loc>
     <lastmod>2017-09-06T07:56:43.000Z</lastmod>
     <data>
         <display>
@@ -90,7 +113,7 @@
          
            
              
-              <breadCrumb title="TODO" url="http://wjjiang.oschina.io/categories/TODO/"/>
+              <breadCrumb title="TODO" url="https://www.crazyjiang.cn/categories/TODO/"/>
           
         </display>
     </data>
@@ -98,7 +121,7 @@
 
     
   <url>
-    <loc>http://wjjiang.oschina.io/2016/09/25/jianshu/</loc>
+    <loc>https://www.crazyjiang.cn/2016/09/25/jianshu/</loc>
     <lastmod>2017-09-06T07:56:24.000Z</lastmod>
     <data>
         <display>
@@ -108,7 +131,7 @@
          
            
              
-              <breadCrumb title="TODO" url="http://wjjiang.oschina.io/categories/TODO/"/>
+              <breadCrumb title="TODO" url="https://www.crazyjiang.cn/categories/TODO/"/>
           
         </display>
     </data>
@@ -116,7 +139,7 @@
 
     
   <url>
-    <loc>http://wjjiang.oschina.io/2017/06/06/android-gradle-api/</loc>
+    <loc>https://www.crazyjiang.cn/2017/06/06/android-gradle-api/</loc>
     <lastmod>2017-09-06T07:41:49.000Z</lastmod>
     <data>
         <display>
@@ -130,7 +153,7 @@
          
            
              
-              <breadCrumb title="Android - Gradle" url="http://wjjiang.oschina.io/categories/Android-Gradle/"/>
+              <breadCrumb title="Android - Gradle" url="https://www.crazyjiang.cn/categories/Android-Gradle/"/>
           
         </display>
     </data>
@@ -138,7 +161,7 @@
 
     
   <url>
-    <loc>http://wjjiang.oschina.io/2017/08/06/android-best-practices/</loc>
+    <loc>https://www.crazyjiang.cn/2017/08/06/android-best-practices/</loc>
     <lastmod>2017-09-06T07:41:26.000Z</lastmod>
     <data>
         <display>
@@ -150,7 +173,7 @@
          
            
              
-              <breadCrumb title="Android - Best Practices" url="http://wjjiang.oschina.io/categories/Android-Best-Practices/"/>
+              <breadCrumb title="Android - Best Practices" url="https://www.crazyjiang.cn/categories/Android-Best-Practices/"/>
           
         </display>
     </data>
@@ -158,7 +181,7 @@
 
     
   <url>
-    <loc>http://wjjiang.oschina.io/2016/09/25/android-context/</loc>
+    <loc>https://www.crazyjiang.cn/2016/09/25/android-context/</loc>
     <lastmod>2017-09-06T07:35:03.000Z</lastmod>
     <data>
         <display>
@@ -172,7 +195,7 @@
          
            
              
-              <breadCrumb title="Android - 基础" url="http://wjjiang.oschina.io/categories/Android-%E5%9F%BA%E7%A1%80/"/>
+              <breadCrumb title="Android - 基础" url="https://www.crazyjiang.cn/categories/Android-%E5%9F%BA%E7%A1%80/"/>
           
         </display>
     </data>
@@ -180,7 +203,7 @@
 
     
   <url>
-    <loc>http://wjjiang.oschina.io/2016/09/05/android-nomedia/</loc>
+    <loc>https://www.crazyjiang.cn/2016/09/05/android-nomedia/</loc>
     <lastmod>2017-09-06T06:56:23.000Z</lastmod>
     <data>
         <display>
@@ -194,7 +217,7 @@
          
            
              
-              <breadCrumb title="Android - 基础" url="http://wjjiang.oschina.io/categories/Android-%E5%9F%BA%E7%A1%80/"/>
+              <breadCrumb title="Android - 基础" url="https://www.crazyjiang.cn/categories/Android-%E5%9F%BA%E7%A1%80/"/>
           
         </display>
     </data>
@@ -202,7 +225,7 @@
 
     
   <url>
-    <loc>http://wjjiang.oschina.io/2017/08/05/hexo-oschina/</loc>
+    <loc>https://www.crazyjiang.cn/2017/08/05/hexo-oschina/</loc>
     <lastmod>2017-09-06T06:46:00.000Z</lastmod>
     <data>
         <display>
@@ -218,7 +241,7 @@
          
            
              
-              <breadCrumb title="随笔" url="http://wjjiang.oschina.io/categories/%E9%9A%8F%E7%AC%94/"/>
+              <breadCrumb title="随笔" url="https://www.crazyjiang.cn/categories/%E9%9A%8F%E7%AC%94/"/>
           
         </display>
     </data>
@@ -230,7 +253,7 @@
     
     
   <url>
-    <loc>http://wjjiang.oschina.io/2017/09/05/lantern/</loc>
+    <loc>https://www.crazyjiang.cn/2017/09/05/lantern/</loc>
     <lastmod>2017-09-06T05:26:45.000Z</lastmod>
     <data>
         <display>
@@ -246,7 +269,7 @@
          
            
              
-              <breadCrumb title="随笔" url="http://wjjiang.oschina.io/categories/%E9%9A%8F%E7%AC%94/"/>
+              <breadCrumb title="随笔" url="https://www.crazyjiang.cn/categories/%E9%9A%8F%E7%AC%94/"/>
           
         </display>
     </data>
@@ -254,7 +277,7 @@
 
     
   <url>
-    <loc>http://wjjiang.oschina.io/2016/09/05/markdemo/</loc>
+    <loc>https://www.crazyjiang.cn/2016/09/05/markdemo/</loc>
     <lastmod>2017-09-06T05:20:17.000Z</lastmod>
     <data>
         <display>
@@ -266,7 +289,7 @@
          
            
              
-              <breadCrumb title="随笔" url="http://wjjiang.oschina.io/categories/%E9%9A%8F%E7%AC%94/"/>
+              <breadCrumb title="随笔" url="https://www.crazyjiang.cn/categories/%E9%9A%8F%E7%AC%94/"/>
           
         </display>
     </data>

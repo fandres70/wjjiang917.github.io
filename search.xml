@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Android获取Manifest中元素的值]]></title>
+    <url>%2F2017%2F09%2F08%2Fandroid-meta-data%2F</url>
+    <content type="text"><![CDATA[在AndroidManifest.xml中，元素可以作为子元素，被包含在、 、和元素中，不同的父元素，在应用时读取的方法也不同。 在Activity应用元素xml: 123&lt;activity...&gt; &lt;meta-data android:name="data_Name" android:value="hello my activity"&gt;&lt;/meta-data&gt;&lt;/activity&gt; java: 12ActivityInfo info = this.getPackageManager().getActivityInfo(getComponentName(), PackageManager.GET_META_DATA);String msg = info.metaData.getString("data_Name"); 在application应用元素xml: 123&lt;application...&gt; &lt;meta-data android:name="data_Name" android:value="hello my application"&gt;&lt;/meta-data&gt;&lt;/application&gt; java: 12ApplicationInfo info = this.getPackageManager().getApplicationInfo(getPackageName(), PackageManager.GET_META_DATA);String msg = info.metaData.getString("data_Name"); 在service应用元素xml: 123&lt;service android:name="MetaDataService"&gt; &lt;meta-data android:value="hello my service" android:name="data_Name"&gt;&lt;/meta-data&gt;&lt;/service&gt; java: 123ComponentName cn = new ComponentName(this, MetaDataService.class);ServiceInfo info = this.getPackageManager().getServiceInfo(cn, PackageManager.GET_META_DATA);String msg = info.metaData.getString("data_Name"); 在receiver应用元素xml: 123456&lt;receiver android:name="MetaDataReceiver"&gt; &lt;meta-data android:value="hello my receiver" android:name="data_Name"&gt;&lt;/meta-data&gt; &lt;intent-filter&gt; &lt;action android:name="android.intent.action.PHONE_STATE"&gt;&lt;/action&gt; &lt;/intent-filter&gt;&lt;/receiver&gt; java: 123ComponentName cn = new ComponentName(context, MetaDataReceiver.class);ActivityInfo info = context.getPackageManager().getReceiverInfo(cn, PackageManager.GET_META_DATA);String msg = info.metaData.getString("data_Name");]]></content>
+      <categories>
+        <category>Android - 基础</category>
+      </categories>
+      <tags>
+        <tag>Android</tag>
+        <tag>meta-data</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[adb操作命令详解及大全]]></title>
     <url>%2F2017%2F09%2F08%2Fandroid-adb%2F</url>
     <content type="text"><![CDATA[ADB，即 Android Debug Bridge，Android调试桥，身为 Android 开发的我们，熟练使用 ADB 命令将会大大提升我们的开发效率， ADB 的命令有很多，今天就来总结下我在开发常用到的一些 ADB 命令。 查看版本1$ adb version 查看连接设备1$ adb devices 安装apk123$ adb install &lt;apkfile&gt;$ adb install -r &lt;apkfile&gt; --保留数据和缓存文件，重新安装apk$ adb install -s &lt;apkfile&gt; --安装apk到sd卡 卸载apk12$ adb uninstall &lt;packagename&gt;$ adb uninstall -k &lt;packagename&gt; --卸载 app 但保留数据和缓存文件 查看已安装123$ adb shell pm list packages$ adb shell pm list packages -s --系统应用的所有包名$ adb shell pm list packages -3 --除了系统应用的第三方应用包名 清除应用数据及缓存1$ adb shell pm clear &lt;packagename&gt; 启动应用1$ adb shell am start -n com.test.demo/.ui.SplashActivity 强制停止应用1$ adb shell am force-stop &lt;packagename&gt; 查看日志1$ adb logcat 重启1$ adb reboot 获取序列号1$ adb get-serialno 获取 MAC 地址1$ adb shell cat /sys/class/net/wlan0/address 查看设备型号1$ adb shell getprop ro.product.model 查看 Android 系统版本1$ adb shell getprop ro.build.version.release 查看屏幕分辨率1$ adb shell wm size 查看屏幕密度1$ adb shell wm density 进程状态1$ adb shell ps -- ps: process status]]></content>
@@ -26,6 +38,19 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[FreeMarker - 快速生成Android Studio工程文件]]></title>
+    <url>%2F2017%2F09%2F06%2Fandroid-as-freemarker%2F</url>
+    <content type="text"><![CDATA[http://blog.csdn.net/lmj623565791/article/details/51635533http://www.jianshu.com/p/7ba79529d365https://zhuanlan.zhihu.com/p/21301904http://www.jianshu.com/p/c76facb61d69 https://github.com/JessYanCoding/MVPArmsTemplate]]></content>
+      <categories>
+        <category>TODO</category>
+      </categories>
+      <tags>
+        <tag>FreeMarker</tag>
+        <tag>Android</tag>
+        <tag>Android Studio</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Live Templates - 快速生成代码]]></title>
     <url>%2F2017%2F09%2F06%2Fandroid-as-livetemplate%2F</url>
     <content type="text"><![CDATA[http://www.jianshu.com/p/baf524daa1e1https://jingyan.baidu.com/article/20095761ccc749cb0721b43f.html]]></content>
@@ -36,19 +61,6 @@
         <tag>Android</tag>
         <tag>Android Studio</tag>
         <tag>Live Templates</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[FreeMarker - 快速生成Android Studio工程文件]]></title>
-    <url>%2F2017%2F09%2F06%2Fandroid-as-freemarker%2F</url>
-    <content type="text"><![CDATA[http://blog.csdn.net/lmj623565791/article/details/51635533http://www.jianshu.com/p/7ba79529d365https://zhuanlan.zhihu.com/p/21301904http://www.jianshu.com/p/c76facb61d69 https://github.com/JessYanCoding/MVPArmsTemplate]]></content>
-      <categories>
-        <category>TODO</category>
-      </categories>
-      <tags>
-        <tag>Android</tag>
-        <tag>FreeMarker</tag>
-        <tag>Android Studio</tag>
       </tags>
   </entry>
   <entry>
