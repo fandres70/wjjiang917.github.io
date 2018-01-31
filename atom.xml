@@ -147,9 +147,9 @@
     
       <category term="Android" scheme="http://www.crazyjiang.cn/tags/Android/"/>
     
-      <category term="Live Templates" scheme="http://www.crazyjiang.cn/tags/Live-Templates/"/>
-    
       <category term="Android Studio" scheme="http://www.crazyjiang.cn/tags/Android-Studio/"/>
+    
+      <category term="Live Templates" scheme="http://www.crazyjiang.cn/tags/Live-Templates/"/>
     
   </entry>
   
@@ -175,9 +175,9 @@
     
       <category term="Android" scheme="http://www.crazyjiang.cn/tags/Android/"/>
     
-      <category term="Android Studio" scheme="http://www.crazyjiang.cn/tags/Android-Studio/"/>
-    
       <category term="FreeMarker" scheme="http://www.crazyjiang.cn/tags/FreeMarker/"/>
+    
+      <category term="Android Studio" scheme="http://www.crazyjiang.cn/tags/Android-Studio/"/>
     
   </entry>
   
