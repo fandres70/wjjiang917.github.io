@@ -1,8 +1,8 @@
 https://www.crazyjiang.cn/2017/09/08/android-meta-data/
 https://www.crazyjiang.cn/2017/09/08/android-adb/
 https://www.crazyjiang.cn/2017/09/07/git/
-https://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/
 https://www.crazyjiang.cn/2017/09/06/android-as-freemarker/
+https://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/
 https://www.crazyjiang.cn/2017/09/05/lantern/
 https://www.crazyjiang.cn/2017/08/06/android-best-practices/
 https://www.crazyjiang.cn/2017/08/05/hexo-oschina/
