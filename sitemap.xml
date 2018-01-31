@@ -2,79 +2,128 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.crazyjiang.cn/tags/index.html</loc>
+    
+    <lastmod>2018-01-31T06:22:12.820Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.crazyjiang.cn/categories/index.html</loc>
+    
+    <lastmod>2018-01-31T06:22:12.814Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.crazyjiang.cn/baidu_verify_AYPfuQbrSr.html</loc>
     
-    <lastmod>2018-01-31T02:49:08.933Z</lastmod>
+    <lastmod>2018-01-31T06:22:12.814Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.crazyjiang.cn/2017/09/08/android-meta-data/</loc>
+    <loc>https://www.crazyjiang.cn/archives/index.html</loc>
     
-    <lastmod>2017-09-08T09:32:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.crazyjiang.cn/2017/09/07/git/</loc>
-    
-    <lastmod>2017-09-08T02:18:48.000Z</lastmod>
+    <lastmod>2018-01-31T06:22:12.813Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.crazyjiang.cn/2017/09/08/android-adb/</loc>
+    <loc>https://www.crazyjiang.cn/2016/09/05/markdemo/</loc>
     
-    <lastmod>2017-09-08T02:12:49.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.crazyjiang.cn/2017/09/06/android-as-freemarker/</loc>
-    
-    <lastmod>2017-09-06T07:56:51.000Z</lastmod>
+    <lastmod>2018-01-31T06:22:12.813Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/</loc>
+    <loc>https://www.crazyjiang.cn/about/index.html</loc>
     
-    <lastmod>2017-09-06T07:56:43.000Z</lastmod>
+    <lastmod>2018-01-31T06:22:12.813Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.crazyjiang.cn/2017/09/05/lantern/</loc>
+    
+    <lastmod>2018-01-31T06:22:12.812Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.crazyjiang.cn/2016/09/25/jianshu/</loc>
     
-    <lastmod>2017-09-06T07:56:24.000Z</lastmod>
+    <lastmod>2018-01-31T06:22:12.811Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.crazyjiang.cn/2017/09/07/git/</loc>
+    
+    <lastmod>2018-01-31T06:22:12.811Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.crazyjiang.cn/2017/06/06/android-gradle-api/</loc>
     
-    <lastmod>2017-09-06T07:41:49.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.crazyjiang.cn/2017/08/06/android-best-practices/</loc>
-    
-    <lastmod>2017-09-06T07:41:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.crazyjiang.cn/2016/09/25/android-context/</loc>
-    
-    <lastmod>2017-09-06T07:35:03.000Z</lastmod>
+    <lastmod>2018-01-31T06:22:12.810Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.crazyjiang.cn/2016/09/05/android-nomedia/</loc>
     
-    <lastmod>2017-09-06T06:56:23.000Z</lastmod>
+    <lastmod>2018-01-31T06:22:12.810Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.crazyjiang.cn/2016/09/25/android-context/</loc>
+    
+    <lastmod>2018-01-31T06:22:12.810Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.crazyjiang.cn/2017/09/08/android-meta-data/</loc>
+    
+    <lastmod>2018-01-31T06:22:12.810Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.crazyjiang.cn/2017/08/06/android-best-practices/</loc>
+    
+    <lastmod>2018-01-31T06:22:12.809Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/</loc>
+    
+    <lastmod>2018-01-31T06:22:12.809Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.crazyjiang.cn/2017/09/06/android-as-freemarker/</loc>
+    
+    <lastmod>2018-01-31T06:22:12.809Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.crazyjiang.cn/2017/09/08/android-adb/</loc>
+    
+    <lastmod>2018-01-31T06:22:12.808Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.crazyjiang.cn/404.html</loc>
+    
+    <lastmod>2018-01-31T06:22:12.808Z</lastmod>
     
   </url>
   
@@ -82,55 +131,6 @@
     <loc>https://www.crazyjiang.cn/2017/08/05/hexo-oschina/</loc>
     
     <lastmod>2017-09-06T06:46:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.crazyjiang.cn/about/index.html</loc>
-    
-    <lastmod>2017-09-06T06:26:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.crazyjiang.cn/404.html</loc>
-    
-    <lastmod>2017-09-06T05:50:04.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.crazyjiang.cn/categories/index.html</loc>
-    
-    <lastmod>2017-09-06T05:28:46.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.crazyjiang.cn/tags/index.html</loc>
-    
-    <lastmod>2017-09-06T05:28:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.crazyjiang.cn/2017/09/05/lantern/</loc>
-    
-    <lastmod>2017-09-06T05:26:45.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.crazyjiang.cn/2016/09/05/markdemo/</loc>
-    
-    <lastmod>2017-09-06T05:20:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.crazyjiang.cn/archives/index.html</loc>
-    
-    <lastmod>2017-08-30T07:55:32.000Z</lastmod>
     
   </url>
   

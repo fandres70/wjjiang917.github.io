@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.crazyjiang.cn/"/>
-  <updated>2017-09-08T09:32:57.000Z</updated>
+  <updated>2018-01-31T06:22:12.810Z</updated>
   <id>https://www.crazyjiang.cn/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://www.crazyjiang.cn/2017/09/08/android-meta-data/"/>
     <id>https://www.crazyjiang.cn/2017/09/08/android-meta-data/</id>
     <published>2017-09-08T09:24:00.000Z</published>
-    <updated>2017-09-08T09:32:57.000Z</updated>
+    <updated>2018-01-31T06:22:12.810Z</updated>
     
     <content type="html"><![CDATA[<p>在AndroidManifest.xml中，<meta-data>元素可以作为子元素，被包含在<activity>、<application> 、<service>和<receiver>元素中，不同的父元素，在应用时读取的方法也不同。</receiver></service></application></activity></meta-data></p>
 <h2 id="在Activity应用元素"><a href="#在Activity应用元素" class="headerlink" title="在Activity应用元素"></a>在Activity应用<meta-data>元素</meta-data></h2><p>xml:</p>
@@ -61,7 +61,7 @@
     <link href="https://www.crazyjiang.cn/2017/09/08/android-adb/"/>
     <id>https://www.crazyjiang.cn/2017/09/08/android-adb/</id>
     <published>2017-09-08T01:13:00.000Z</published>
-    <updated>2017-09-08T02:12:49.000Z</updated>
+    <updated>2018-01-31T06:22:12.808Z</updated>
     
     <content type="html"><![CDATA[<p>ADB，即 Android Debug Bridge，Android调试桥，身为 Android 开发的我们，熟练使用 ADB 命令将会大大提升我们的开发效率， ADB 的命令有很多，今天就来总结下我在开发常用到的一些 ADB 命令。</p>
 <h2 id="查看版本"><a href="#查看版本" class="headerlink" title="查看版本"></a>查看版本</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb version</span></div></pre></td></tr></table></figure>
@@ -105,7 +105,7 @@
     <link href="https://www.crazyjiang.cn/2017/09/07/git/"/>
     <id>https://www.crazyjiang.cn/2017/09/07/git/</id>
     <published>2017-09-07T05:41:00.000Z</published>
-    <updated>2017-09-08T02:18:48.000Z</updated>
+    <updated>2018-01-31T06:22:12.811Z</updated>
     
     <content type="html"><![CDATA[<h2 id="将本地目录上传到远程仓库"><a href="#将本地目录上传到远程仓库" class="headerlink" title="将本地目录上传到远程仓库"></a>将本地目录上传到远程仓库</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> git init</span></div><div class="line"><span class="meta">$</span><span class="bash"> git add .</span></div><div class="line"><span class="meta">$</span><span class="bash"> git commit -am <span class="string">"###"</span></span></div><div class="line"><span class="meta">$</span><span class="bash"> git remote add origin https://gitee.com/wjjiang/CustomView.git</span></div><div class="line"><span class="meta">$</span><span class="bash"> git pull --rebase origin master</span></div><div class="line"><span class="meta">$</span><span class="bash"> git push origin master</span></div></pre></td></tr></table></figure>
 <h2 id="查看代码修改的内容"><a href="#查看代码修改的内容" class="headerlink" title="查看代码修改的内容"></a>查看代码修改的内容</h2><figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ git diff &lt;<span class="built_in">file</span>&gt;  <span class="comment">--比较某文件与最近提交节点的差异</span></div><div class="line">$ git diff &lt;hashcode&gt; &lt;hashcode&gt; &lt;<span class="built_in">file</span>&gt;   <span class="comment">--比较某文件在提交节点a，节点b的差异</span></div></pre></td></tr></table></figure>
@@ -127,39 +127,11 @@
   </entry>
   
   <entry>
-    <title>FreeMarker - 快速生成Android Studio工程文件</title>
-    <link href="https://www.crazyjiang.cn/2017/09/06/android-as-freemarker/"/>
-    <id>https://www.crazyjiang.cn/2017/09/06/android-as-freemarker/</id>
-    <published>2017-09-06T02:00:00.000Z</published>
-    <updated>2017-09-06T07:56:51.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="http://blog.csdn.net/lmj623565791/article/details/51635533" target="_blank" rel="external">http://blog.csdn.net/lmj623565791/article/details/51635533</a><br><a href="http://www.jianshu.com/p/7ba79529d365" target="_blank" rel="external">http://www.jianshu.com/p/7ba79529d365</a><br><a href="https://zhuanlan.zhihu.com/p/21301904" target="_blank" rel="external">https://zhuanlan.zhihu.com/p/21301904</a><br><a href="http://www.jianshu.com/p/c76facb61d69" target="_blank" rel="external">http://www.jianshu.com/p/c76facb61d69</a></p>
-<p><a href="https://github.com/JessYanCoding/MVPArmsTemplate" target="_blank" rel="external">https://github.com/JessYanCoding/MVPArmsTemplate</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/lmj623565791/article/details/51635533&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.csdn.net/lmj623565791/art
-    
-    </summary>
-    
-      <category term="TODO" scheme="https://www.crazyjiang.cn/categories/TODO/"/>
-    
-    
-      <category term="FreeMarker" scheme="https://www.crazyjiang.cn/tags/FreeMarker/"/>
-    
-      <category term="Android" scheme="https://www.crazyjiang.cn/tags/Android/"/>
-    
-      <category term="Android Studio" scheme="https://www.crazyjiang.cn/tags/Android-Studio/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Live Templates - 快速生成代码</title>
     <link href="https://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/"/>
     <id>https://www.crazyjiang.cn/2017/09/06/android-as-livetemplate/</id>
     <published>2017-09-06T02:00:00.000Z</published>
-    <updated>2017-09-06T07:56:43.000Z</updated>
+    <updated>2018-01-31T06:22:12.809Z</updated>
     
     <content type="html"><![CDATA[<p><a href="http://www.jianshu.com/p/baf524daa1e1" target="_blank" rel="external">http://www.jianshu.com/p/baf524daa1e1</a><br><a href="https://jingyan.baidu.com/article/20095761ccc749cb0721b43f.html" target="_blank" rel="external">https://jingyan.baidu.com/article/20095761ccc749cb0721b43f.html</a></p>
 ]]></content>
@@ -182,11 +154,39 @@
   </entry>
   
   <entry>
+    <title>FreeMarker - 快速生成Android Studio工程文件</title>
+    <link href="https://www.crazyjiang.cn/2017/09/06/android-as-freemarker/"/>
+    <id>https://www.crazyjiang.cn/2017/09/06/android-as-freemarker/</id>
+    <published>2017-09-06T02:00:00.000Z</published>
+    <updated>2018-01-31T06:22:12.809Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://blog.csdn.net/lmj623565791/article/details/51635533" target="_blank" rel="external">http://blog.csdn.net/lmj623565791/article/details/51635533</a><br><a href="http://www.jianshu.com/p/7ba79529d365" target="_blank" rel="external">http://www.jianshu.com/p/7ba79529d365</a><br><a href="https://zhuanlan.zhihu.com/p/21301904" target="_blank" rel="external">https://zhuanlan.zhihu.com/p/21301904</a><br><a href="http://www.jianshu.com/p/c76facb61d69" target="_blank" rel="external">http://www.jianshu.com/p/c76facb61d69</a></p>
+<p><a href="https://github.com/JessYanCoding/MVPArmsTemplate" target="_blank" rel="external">https://github.com/JessYanCoding/MVPArmsTemplate</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/lmj623565791/article/details/51635533&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.csdn.net/lmj623565791/art
+    
+    </summary>
+    
+      <category term="TODO" scheme="https://www.crazyjiang.cn/categories/TODO/"/>
+    
+    
+      <category term="Android" scheme="https://www.crazyjiang.cn/tags/Android/"/>
+    
+      <category term="FreeMarker" scheme="https://www.crazyjiang.cn/tags/FreeMarker/"/>
+    
+      <category term="Android Studio" scheme="https://www.crazyjiang.cn/tags/Android-Studio/"/>
+    
+  </entry>
+  
+  <entry>
     <title>免费VPN - 蓝灯lantern  邀请码YFPJ9TJ</title>
     <link href="https://www.crazyjiang.cn/2017/09/05/lantern/"/>
     <id>https://www.crazyjiang.cn/2017/09/05/lantern/</id>
     <published>2017-09-04T16:00:00.000Z</published>
-    <updated>2017-09-06T05:26:45.000Z</updated>
+    <updated>2018-01-31T06:22:12.812Z</updated>
     
     <content type="html"><![CDATA[<p><a href="https://www.getlantern.org/zh_CN/" target="_blank" rel="external">官网</a><br><a href="https://github.com/getlantern/forum/" target="_blank" rel="external">下载地址</a></p>
 <p>蓝灯lantern邀请码 <strong>YFPJ9TJ</strong> 永久有效！可获取三个月免费蓝灯专业版</p>
@@ -217,7 +217,7 @@
     <link href="https://www.crazyjiang.cn/2017/08/06/android-best-practices/"/>
     <id>https://www.crazyjiang.cn/2017/08/06/android-best-practices/</id>
     <published>2017-08-06T09:20:00.000Z</published>
-    <updated>2017-09-06T07:41:26.000Z</updated>
+    <updated>2018-01-31T06:22:12.809Z</updated>
     
     <content type="html"><![CDATA[<p>摘录自<a href="https://techbeacon.com/how-become-better-android-developer-30-bite-sized-pro-tips" target="_blank" rel="external">How to become a better Android developer: 30+ bite-sized pro tips</a></p>
 <p>觉得写得挺好，摘录下来，经常看看，激励自己</p>
@@ -326,7 +326,7 @@
     <link href="https://www.crazyjiang.cn/2017/06/06/android-gradle-api/"/>
     <id>https://www.crazyjiang.cn/2017/06/06/android-gradle-api/</id>
     <published>2017-06-06T02:00:00.000Z</published>
-    <updated>2017-09-06T07:41:49.000Z</updated>
+    <updated>2018-01-31T06:22:12.810Z</updated>
     
     <content type="html"><![CDATA[<h2 id="android-apt"><a href="#android-apt" class="headerlink" title="android-apt"></a>android-apt</h2><p>APT(Annotation Processing Tool)，注释处理工具，对源代码文件进行检测，根据注解自动生成代码。并编译生成的源文件和原来的源文件，将它们一起生成class文件。</p>
 <h2 id="annotationProcessor"><a href="#annotationProcessor" class="headerlink" title="annotationProcessor"></a>annotationProcessor</h2><p>编译时执行，不会打包到apk中。完全替代android-apt。</p>
@@ -366,7 +366,7 @@
     <link href="https://www.crazyjiang.cn/2016/09/25/android-context/"/>
     <id>https://www.crazyjiang.cn/2016/09/25/android-context/</id>
     <published>2016-09-25T02:00:00.000Z</published>
-    <updated>2017-09-06T07:35:03.000Z</updated>
+    <updated>2018-01-31T06:22:12.810Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Context是？"><a href="#Context是？" class="headerlink" title="Context是？"></a>Context是？</h2><figure class="highlight applescript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">Interface <span class="keyword">to</span> <span class="keyword">global</span> information <span class="keyword">about</span> an <span class="built_in">application</span> environment. </div><div class="line">This <span class="keyword">is</span> an abstract <span class="built_in">class</span> <span class="keyword">whose</span> implementation <span class="keyword">is</span> provided <span class="keyword">by</span> <span class="keyword">the</span> Android system. </div><div class="line">It allows access <span class="keyword">to</span> <span class="built_in">application</span>-specific resources <span class="keyword">and</span> classes, </div><div class="line"><span class="keyword">as</span> well <span class="keyword">as</span> up-calls <span class="keyword">for</span> <span class="built_in">application</span>-level operations such <span class="keyword">as</span> launching activities, </div><div class="line">broadcasting <span class="keyword">and</span> receiving intents, etc</div></pre></td></tr></table></figure>
 <blockquote>
@@ -402,7 +402,7 @@
     <link href="https://www.crazyjiang.cn/2016/09/25/jianshu/"/>
     <id>https://www.crazyjiang.cn/2016/09/25/jianshu/</id>
     <published>2016-09-25T02:00:00.000Z</published>
-    <updated>2017-09-06T07:56:24.000Z</updated>
+    <updated>2018-01-31T06:22:12.811Z</updated>
     
     <content type="html"><![CDATA[<p>Tinker <a href="http://www.jianshu.com/p/ed17f00a3d23" target="_blank" rel="external">http://www.jianshu.com/p/ed17f00a3d23</a></p>
 <p>Android事件分发机制 <a href="http://www.jianshu.com/p/94770d9cda49" target="_blank" rel="external">http://www.jianshu.com/p/94770d9cda49</a></p>
@@ -432,7 +432,7 @@
     <link href="https://www.crazyjiang.cn/2016/09/05/android-nomedia/"/>
     <id>https://www.crazyjiang.cn/2016/09/05/android-nomedia/</id>
     <published>2016-09-05T02:00:00.000Z</published>
-    <updated>2017-09-06T06:56:23.000Z</updated>
+    <updated>2018-01-31T06:22:12.810Z</updated>
     
     <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>最近做的直播应用中，贴纸功能需要从服务器下载贴纸资源（含图片）。下载到本地后，会在相册中被列出来～  怎么做到不在相册中显示呢？ <strong>.nomedia</strong></p>
 <h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>这是 <a href="https://developer.android.com/guide/topics/data/data-storage.html?hl=zh-cn" target="_blank" rel="external">官网</a>对.nomedia的解释：</p>
@@ -466,7 +466,7 @@
     <link href="https://www.crazyjiang.cn/2016/09/05/markdemo/"/>
     <id>https://www.crazyjiang.cn/2016/09/05/markdemo/</id>
     <published>2016-09-04T16:00:00.000Z</published>
-    <updated>2017-09-06T05:20:17.000Z</updated>
+    <updated>2018-01-31T06:22:12.813Z</updated>
     
     <content type="html"><![CDATA[<p>#一级标题</p>
 <p>##二级标题  ###三级标题    标题</p>
